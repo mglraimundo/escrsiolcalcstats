@@ -1,0 +1,3449 @@
+[
+  {
+    "year": 2024,
+    "country": "United States",
+    "continent": "North America",
+    "total_users": 13103,
+    "new_users": 12347,
+    "sessions": 45649,
+    "views_per_session": 1.9798462178799
+  },
+  {
+    "year": 2024,
+    "country": "Brazil",
+    "continent": "South America",
+    "total_users": 12263,
+    "new_users": 11434,
+    "sessions": 59054,
+    "views_per_session": 1.62918684593761
+  },
+  {
+    "year": 2024,
+    "country": "Spain",
+    "continent": "Europe",
+    "total_users": 12240,
+    "new_users": 11216,
+    "sessions": 58582,
+    "views_per_session": 1.70018094295176
+  },
+  {
+    "year": 2024,
+    "country": "Italy",
+    "continent": "Europe",
+    "total_users": 6589,
+    "new_users": 6011,
+    "sessions": 27701,
+    "views_per_session": 1.68838670084112
+  },
+  {
+    "year": 2024,
+    "country": "Russia",
+    "continent": "Europe",
+    "total_users": 6484,
+    "new_users": 5740,
+    "sessions": 63491,
+    "views_per_session": 1.41990203335905
+  },
+  {
+    "year": 2024,
+    "country": "Germany",
+    "continent": "Europe",
+    "total_users": 5626,
+    "new_users": 5112,
+    "sessions": 30270,
+    "views_per_session": 1.60545094152626
+  },
+  {
+    "year": 2024,
+    "country": "France",
+    "continent": "Europe",
+    "total_users": 4573,
+    "new_users": 4087,
+    "sessions": 16327,
+    "views_per_session": 1.83224107306914
+  },
+  {
+    "year": 2024,
+    "country": "India",
+    "continent": "Asia",
+    "total_users": 4060,
+    "new_users": 3941,
+    "sessions": 14238,
+    "views_per_session": 2.01910380671442
+  },
+  {
+    "year": 2024,
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "total_users": 4032,
+    "new_users": 3766,
+    "sessions": 12774,
+    "views_per_session": 1.83724753405354
+  },
+  {
+    "year": 2024,
+    "country": "China",
+    "continent": "Asia",
+    "total_users": 4019,
+    "new_users": 3836,
+    "sessions": 8579,
+    "views_per_session": 2.47231612075999
+  },
+  {
+    "year": 2024,
+    "country": "Mexico",
+    "continent": "North America",
+    "total_users": 3475,
+    "new_users": 3328,
+    "sessions": 11754,
+    "views_per_session": 1.8843797856049
+  },
+  {
+    "year": 2024,
+    "country": "South Korea",
+    "continent": "Asia",
+    "total_users": 3304,
+    "new_users": 3164,
+    "sessions": 20682,
+    "views_per_session": 1.50062856590271
+  },
+  {
+    "year": 2024,
+    "country": "Argentina",
+    "continent": "South America",
+    "total_users": 2739,
+    "new_users": 2471,
+    "sessions": 13177,
+    "views_per_session": 1.62290354405403
+  },
+  {
+    "year": 2024,
+    "country": "T\u00fcrkiye",
+    "continent": "Europe",
+    "total_users": 2231,
+    "new_users": 2110,
+    "sessions": 8722,
+    "views_per_session": 1.79855537720706
+  },
+  {
+    "year": 2024,
+    "country": "Portugal",
+    "continent": "Europe",
+    "total_users": 2229,
+    "new_users": 2058,
+    "sessions": 7066,
+    "views_per_session": 1.96433625813756
+  },
+  {
+    "year": 2024,
+    "country": "Chile",
+    "continent": "South America",
+    "total_users": 2178,
+    "new_users": 2043,
+    "sessions": 9321,
+    "views_per_session": 1.58952902049136
+  },
+  {
+    "year": 2024,
+    "country": "Australia",
+    "continent": "Oceania",
+    "total_users": 2112,
+    "new_users": 1942,
+    "sessions": 9739,
+    "views_per_session": 1.61433412054625
+  },
+  {
+    "year": 2024,
+    "country": "Japan",
+    "continent": "Asia",
+    "total_users": 2099,
+    "new_users": 1922,
+    "sessions": 10934,
+    "views_per_session": 2.10224986281324
+  },
+  {
+    "year": 2024,
+    "country": "Switzerland",
+    "continent": "Europe",
+    "total_users": 2074,
+    "new_users": 1862,
+    "sessions": 11558,
+    "views_per_session": 1.54196227721059
+  },
+  {
+    "year": 2024,
+    "country": "Belgium",
+    "continent": "Europe",
+    "total_users": 1783,
+    "new_users": 1580,
+    "sessions": 8766,
+    "views_per_session": 1.53947068218115
+  },
+  {
+    "year": 2024,
+    "country": "Poland",
+    "continent": "Europe",
+    "total_users": 1778,
+    "new_users": 1612,
+    "sessions": 6962,
+    "views_per_session": 1.86742315426601
+  },
+  {
+    "year": 2024,
+    "country": "Canada",
+    "continent": "North America",
+    "total_users": 1665,
+    "new_users": 1543,
+    "sessions": 7392,
+    "views_per_session": 1.71239177489177
+  },
+  {
+    "year": 2024,
+    "country": "Austria",
+    "continent": "Europe",
+    "total_users": 1303,
+    "new_users": 1181,
+    "sessions": 4542,
+    "views_per_session": 1.79678555702333
+  },
+  {
+    "year": 2024,
+    "country": "Israel",
+    "continent": "Asia",
+    "total_users": 1224,
+    "new_users": 1107,
+    "sessions": 6231,
+    "views_per_session": 1.62173005938051
+  },
+  {
+    "year": 2024,
+    "country": "Colombia",
+    "continent": "South America",
+    "total_users": 1177,
+    "new_users": 1095,
+    "sessions": 3777,
+    "views_per_session": 1.8249933809902
+  },
+  {
+    "year": 2024,
+    "country": "Ukraine",
+    "continent": "Europe",
+    "total_users": 1050,
+    "new_users": 957,
+    "sessions": 6701,
+    "views_per_session": 1.63602447395911
+  },
+  {
+    "year": 2024,
+    "country": "Netherlands",
+    "continent": "Europe",
+    "total_users": 1027,
+    "new_users": 923,
+    "sessions": 2525,
+    "views_per_session": 1.99168316831683
+  },
+  {
+    "year": 2024,
+    "country": "Czechia",
+    "continent": "Europe",
+    "total_users": 915,
+    "new_users": 874,
+    "sessions": 5853,
+    "views_per_session": 1.47872885699641
+  },
+  {
+    "year": 2024,
+    "country": "Romania",
+    "continent": "Europe",
+    "total_users": 884,
+    "new_users": 807,
+    "sessions": 5324,
+    "views_per_session": 1.68858001502629
+  },
+  {
+    "year": 2024,
+    "country": "Saudi Arabia",
+    "continent": "Asia",
+    "total_users": 866,
+    "new_users": 816,
+    "sessions": 3676,
+    "views_per_session": 1.8860174102285
+  },
+  {
+    "year": 2024,
+    "country": "Taiwan",
+    "continent": "Asia",
+    "total_users": 806,
+    "new_users": 759,
+    "sessions": 2441,
+    "views_per_session": 1.82220401474805
+  },
+  {
+    "year": 2024,
+    "country": "Hong Kong",
+    "continent": "Asia",
+    "total_users": 793,
+    "new_users": 699,
+    "sessions": 3280,
+    "views_per_session": 1.76067073170731
+  },
+  {
+    "year": 2024,
+    "country": "Egypt",
+    "continent": "Africa",
+    "total_users": 756,
+    "new_users": 707,
+    "sessions": 2218,
+    "views_per_session": 2.27321911632101
+  },
+  {
+    "year": 2024,
+    "country": "Thailand",
+    "continent": "Asia",
+    "total_users": 742,
+    "new_users": 721,
+    "sessions": 1528,
+    "views_per_session": 2.5392670157068
+  },
+  {
+    "year": 2024,
+    "country": "Peru",
+    "continent": "South America",
+    "total_users": 652,
+    "new_users": 600,
+    "sessions": 3748,
+    "views_per_session": 1.67502668089647
+  },
+  {
+    "year": 2024,
+    "country": "South Africa",
+    "continent": "Africa",
+    "total_users": 624,
+    "new_users": 568,
+    "sessions": 5254,
+    "views_per_session": 1.54415683288922
+  },
+  {
+    "year": 2024,
+    "country": "Iran",
+    "continent": "Asia",
+    "total_users": 623,
+    "new_users": 540,
+    "sessions": 2397,
+    "views_per_session": 2.10888610763454
+  },
+  {
+    "year": 2024,
+    "country": "Malaysia",
+    "continent": "Asia",
+    "total_users": 601,
+    "new_users": 555,
+    "sessions": 4210,
+    "views_per_session": 1.48883610451306
+  },
+  {
+    "year": 2024,
+    "country": "Finland",
+    "continent": "Europe",
+    "total_users": 587,
+    "new_users": 534,
+    "sessions": 2350,
+    "views_per_session": 1.31361702127659
+  },
+  {
+    "year": 2024,
+    "country": "Hungary",
+    "continent": "Europe",
+    "total_users": 571,
+    "new_users": 499,
+    "sessions": 1802,
+    "views_per_session": 2.17203107658157
+  },
+  {
+    "year": 2024,
+    "country": "Philippines",
+    "continent": "Asia",
+    "total_users": 553,
+    "new_users": 528,
+    "sessions": 1716,
+    "views_per_session": 2.33100233100233
+  },
+  {
+    "year": 2024,
+    "country": "Greece",
+    "continent": "Europe",
+    "total_users": 527,
+    "new_users": 476,
+    "sessions": 1584,
+    "views_per_session": 1.82828282828282
+  },
+  {
+    "year": 2024,
+    "country": "Belarus",
+    "continent": "Europe",
+    "total_users": 477,
+    "new_users": 438,
+    "sessions": 3701,
+    "views_per_session": 1.65657930289111
+  },
+  {
+    "year": 2024,
+    "country": "Singapore",
+    "continent": "Asia",
+    "total_users": 457,
+    "new_users": 403,
+    "sessions": 1132,
+    "views_per_session": 1.97703180212014
+  },
+  {
+    "year": 2024,
+    "country": "Indonesia",
+    "continent": "Asia",
+    "total_users": 441,
+    "new_users": 359,
+    "sessions": 785,
+    "views_per_session": 3.29044585987261
+  },
+  {
+    "year": 2024,
+    "country": "Kazakhstan",
+    "continent": "Asia",
+    "total_users": 412,
+    "new_users": 394,
+    "sessions": 2515,
+    "views_per_session": 1.62624254473161
+  },
+  {
+    "year": 2024,
+    "country": "Morocco",
+    "continent": "Africa",
+    "total_users": 404,
+    "new_users": 385,
+    "sessions": 1745,
+    "views_per_session": 1.92607449856733
+  },
+  {
+    "year": 2024,
+    "country": "Sweden",
+    "continent": "Europe",
+    "total_users": 393,
+    "new_users": 343,
+    "sessions": 1568,
+    "views_per_session": 1.54783163265306
+  },
+  {
+    "year": 2024,
+    "country": "Bulgaria",
+    "continent": "Europe",
+    "total_users": 377,
+    "new_users": 368,
+    "sessions": 2003,
+    "views_per_session": 1.77933100349475
+  },
+  {
+    "year": 2024,
+    "country": "Guatemala",
+    "continent": "North America",
+    "total_users": 360,
+    "new_users": 343,
+    "sessions": 1877,
+    "views_per_session": 1.51198721363878
+  },
+  {
+    "year": 2024,
+    "country": "Ireland",
+    "continent": "Europe",
+    "total_users": 356,
+    "new_users": 323,
+    "sessions": 1008,
+    "views_per_session": 1.71130952380952
+  },
+  {
+    "year": 2024,
+    "country": "Venezuela",
+    "continent": "South America",
+    "total_users": 349,
+    "new_users": 327,
+    "sessions": 1100,
+    "views_per_session": 2.01454545454545
+  },
+  {
+    "year": 2024,
+    "country": "Denmark",
+    "continent": "Europe",
+    "total_users": 336,
+    "new_users": 308,
+    "sessions": 1781,
+    "views_per_session": 1.58787198203256
+  },
+  {
+    "year": 2024,
+    "country": "Norway",
+    "continent": "Europe",
+    "total_users": 319,
+    "new_users": 288,
+    "sessions": 1715,
+    "views_per_session": 1.41924198250728
+  },
+  {
+    "year": 2024,
+    "country": "New Zealand",
+    "continent": "Oceania",
+    "total_users": 314,
+    "new_users": 270,
+    "sessions": 1085,
+    "views_per_session": 1.61290322580645
+  },
+  {
+    "year": 2024,
+    "country": "United Arab Emirates",
+    "continent": "Asia",
+    "total_users": 308,
+    "new_users": 271,
+    "sessions": 1074,
+    "views_per_session": 1.86871508379888
+  },
+  {
+    "year": 2024,
+    "country": "Croatia",
+    "continent": "Europe",
+    "total_users": 265,
+    "new_users": 226,
+    "sessions": 3369,
+    "views_per_session": 1.3457999406352
+  },
+  {
+    "year": 2024,
+    "country": "Pakistan",
+    "continent": "Asia",
+    "total_users": 251,
+    "new_users": 239,
+    "sessions": 1093,
+    "views_per_session": 2.34583714547118
+  },
+  {
+    "year": 2024,
+    "country": "Slovakia",
+    "continent": "Europe",
+    "total_users": 247,
+    "new_users": 225,
+    "sessions": 1899,
+    "views_per_session": 1.41969457609268
+  },
+  {
+    "year": 2024,
+    "country": "Vietnam",
+    "continent": "Asia",
+    "total_users": 222,
+    "new_users": 218,
+    "sessions": 375,
+    "views_per_session": 3.832
+  },
+  {
+    "year": 2024,
+    "country": "Ecuador",
+    "continent": "South America",
+    "total_users": 215,
+    "new_users": 198,
+    "sessions": 950,
+    "views_per_session": 1.62105263157894
+  },
+  {
+    "year": 2024,
+    "country": "Jordan",
+    "continent": "Asia",
+    "total_users": 197,
+    "new_users": 180,
+    "sessions": 767,
+    "views_per_session": 2.01173402868318
+  },
+  {
+    "year": 2024,
+    "country": "Uzbekistan",
+    "continent": "Asia",
+    "total_users": 196,
+    "new_users": 175,
+    "sessions": 887,
+    "views_per_session": 1.68094701240135
+  },
+  {
+    "year": 2024,
+    "country": "Dominican Republic",
+    "continent": "North America",
+    "total_users": 190,
+    "new_users": 177,
+    "sessions": 624,
+    "views_per_session": 1.72596153846153
+  },
+  {
+    "year": 2024,
+    "country": "Algeria",
+    "continent": "Africa",
+    "total_users": 187,
+    "new_users": 183,
+    "sessions": 444,
+    "views_per_session": 2.47072072072072
+  },
+  {
+    "year": 2024,
+    "country": "Armenia",
+    "continent": "Asia",
+    "total_users": 185,
+    "new_users": 175,
+    "sessions": 769,
+    "views_per_session": 1.98309492847854
+  },
+  {
+    "year": 2024,
+    "country": "Iraq",
+    "continent": "Asia",
+    "total_users": 177,
+    "new_users": 167,
+    "sessions": 348,
+    "views_per_session": 2.37931034482758
+  },
+  {
+    "year": 2024,
+    "country": "Serbia",
+    "continent": "Europe",
+    "total_users": 161,
+    "new_users": 149,
+    "sessions": 483,
+    "views_per_session": 2.1863354037267
+  },
+  {
+    "year": 2024,
+    "country": "Uruguay",
+    "continent": "South America",
+    "total_users": 161,
+    "new_users": 133,
+    "sessions": 350,
+    "views_per_session": 2.03142857142857
+  },
+  {
+    "year": 2024,
+    "country": "Paraguay",
+    "continent": "South America",
+    "total_users": 131,
+    "new_users": 121,
+    "sessions": 464,
+    "views_per_session": 1.88577586206896
+  },
+  {
+    "year": 2024,
+    "country": "Lebanon",
+    "continent": "Asia",
+    "total_users": 116,
+    "new_users": 105,
+    "sessions": 213,
+    "views_per_session": 2.27699530516431
+  },
+  {
+    "year": 2024,
+    "country": "Honduras",
+    "continent": "North America",
+    "total_users": 104,
+    "new_users": 97,
+    "sessions": 444,
+    "views_per_session": 1.56981981981981
+  },
+  {
+    "year": 2024,
+    "country": "Lithuania",
+    "continent": "Europe",
+    "total_users": 97,
+    "new_users": 80,
+    "sessions": 480,
+    "views_per_session": 1.52083333333333
+  },
+  {
+    "year": 2024,
+    "country": "El Salvador",
+    "continent": "North America",
+    "total_users": 87,
+    "new_users": 84,
+    "sessions": 278,
+    "views_per_session": 1.6978417266187
+  },
+  {
+    "year": 2024,
+    "country": "Azerbaijan",
+    "continent": "Asia",
+    "total_users": 86,
+    "new_users": 83,
+    "sessions": 225,
+    "views_per_session": 3.41333333333333
+  },
+  {
+    "year": 2024,
+    "country": "Panama",
+    "continent": "North America",
+    "total_users": 83,
+    "new_users": 76,
+    "sessions": 205,
+    "views_per_session": 1.90243902439024
+  },
+  {
+    "year": 2024,
+    "country": "Bolivia",
+    "continent": "South America",
+    "total_users": 80,
+    "new_users": 63,
+    "sessions": 260,
+    "views_per_session": 2.03076923076923
+  },
+  {
+    "year": 2024,
+    "country": "Bangladesh",
+    "continent": "Asia",
+    "total_users": 77,
+    "new_users": 81,
+    "sessions": 74,
+    "views_per_session": 17.7702702702702
+  },
+  {
+    "year": 2024,
+    "country": "Slovenia",
+    "continent": "Europe",
+    "total_users": 74,
+    "new_users": 67,
+    "sessions": 136,
+    "views_per_session": 2.71323529411764
+  },
+  {
+    "year": 2024,
+    "country": "Puerto Rico",
+    "continent": "North America",
+    "total_users": 66,
+    "new_users": 64,
+    "sessions": 334,
+    "views_per_session": 1.37125748502994
+  },
+  {
+    "year": 2024,
+    "country": "Syria",
+    "continent": "Asia",
+    "total_users": 65,
+    "new_users": 57,
+    "sessions": 133,
+    "views_per_session": 2.60902255639097
+  },
+  {
+    "year": 2024,
+    "country": "Tunisia",
+    "continent": "Africa",
+    "total_users": 63,
+    "new_users": 61,
+    "sessions": 119,
+    "views_per_session": 2.41176470588235
+  },
+  {
+    "year": 2024,
+    "country": "Latvia",
+    "continent": "Europe",
+    "total_users": 61,
+    "new_users": 57,
+    "sessions": 401,
+    "views_per_session": 1.40399002493765
+  },
+  {
+    "year": 2024,
+    "country": "Georgia",
+    "continent": "Asia",
+    "total_users": 57,
+    "new_users": 55,
+    "sessions": 99,
+    "views_per_session": 3.06060606060606
+  },
+  {
+    "year": 2024,
+    "country": "Moldova",
+    "continent": "Europe",
+    "total_users": 57,
+    "new_users": 51,
+    "sessions": 224,
+    "views_per_session": 2.02232142857142
+  },
+  {
+    "year": 2024,
+    "country": "(not set)",
+    "continent": "Unknown",
+    "total_users": 56,
+    "new_users": 29,
+    "sessions": 70,
+    "views_per_session": 3.38571428571428
+  },
+  {
+    "year": 2024,
+    "country": "Costa Rica",
+    "continent": "North America",
+    "total_users": 55,
+    "new_users": 52,
+    "sessions": 241,
+    "views_per_session": 1.73858921161825
+  },
+  {
+    "year": 2024,
+    "country": "Albania",
+    "continent": "Europe",
+    "total_users": 53,
+    "new_users": 50,
+    "sessions": 114,
+    "views_per_session": 3.0438596491228
+  },
+  {
+    "year": 2024,
+    "country": "Bosnia & Herzegovina",
+    "continent": "Europe",
+    "total_users": 52,
+    "new_users": 44,
+    "sessions": 135,
+    "views_per_session": 2.37037037037037
+  },
+  {
+    "year": 2024,
+    "country": "Luxembourg",
+    "continent": "Europe",
+    "total_users": 52,
+    "new_users": 50,
+    "sessions": 126,
+    "views_per_session": 2.22222222222222
+  },
+  {
+    "year": 2024,
+    "country": "Cyprus",
+    "continent": "Asia",
+    "total_users": 49,
+    "new_users": 42,
+    "sessions": 314,
+    "views_per_session": 1.46815286624203
+  },
+  {
+    "year": 2024,
+    "country": "Sri Lanka",
+    "continent": "Asia",
+    "total_users": 49,
+    "new_users": 49,
+    "sessions": 68,
+    "views_per_session": 4.0735294117647
+  },
+  {
+    "year": 2024,
+    "country": "Cuba",
+    "continent": "North America",
+    "total_users": 48,
+    "new_users": 41,
+    "sessions": 98,
+    "views_per_session": 3.66326530612244
+  },
+  {
+    "year": 2024,
+    "country": "Kuwait",
+    "continent": "Asia",
+    "total_users": 47,
+    "new_users": 46,
+    "sessions": 87,
+    "views_per_session": 2.34482758620689
+  },
+  {
+    "year": 2024,
+    "country": "Tajikistan",
+    "continent": "Asia",
+    "total_users": 47,
+    "new_users": 39,
+    "sessions": 233,
+    "views_per_session": 1.81545064377682
+  },
+  {
+    "year": 2024,
+    "country": "Kenya",
+    "continent": "Africa",
+    "total_users": 46,
+    "new_users": 44,
+    "sessions": 83,
+    "views_per_session": 3.02409638554216
+  },
+  {
+    "year": 2024,
+    "country": "Nepal",
+    "continent": "Asia",
+    "total_users": 46,
+    "new_users": 44,
+    "sessions": 50,
+    "views_per_session": 3.84
+  },
+  {
+    "year": 2024,
+    "country": "Oman",
+    "continent": "Asia",
+    "total_users": 45,
+    "new_users": 41,
+    "sessions": 136,
+    "views_per_session": 2.06617647058823
+  },
+  {
+    "year": 2024,
+    "country": "Qatar",
+    "continent": "Asia",
+    "total_users": 40,
+    "new_users": 38,
+    "sessions": 78,
+    "views_per_session": 2.23076923076923
+  },
+  {
+    "year": 2024,
+    "country": "Nigeria",
+    "continent": "Africa",
+    "total_users": 39,
+    "new_users": 41,
+    "sessions": 33,
+    "views_per_session": 22.7272727272727
+  },
+  {
+    "year": 2024,
+    "country": "North Macedonia",
+    "continent": "Europe",
+    "total_users": 38,
+    "new_users": 37,
+    "sessions": 151,
+    "views_per_session": 1.64900662251655
+  },
+  {
+    "year": 2024,
+    "country": "Andorra",
+    "continent": "Europe",
+    "total_users": 37,
+    "new_users": 36,
+    "sessions": 83,
+    "views_per_session": 2.28915662650602
+  },
+  {
+    "year": 2024,
+    "country": "Estonia",
+    "continent": "Europe",
+    "total_users": 36,
+    "new_users": 27,
+    "sessions": 247,
+    "views_per_session": 1.21862348178137
+  },
+  {
+    "year": 2024,
+    "country": "Mongolia",
+    "continent": "Asia",
+    "total_users": 30,
+    "new_users": 28,
+    "sessions": 56,
+    "views_per_session": 2.07142857142857
+  },
+  {
+    "year": 2024,
+    "country": "Namibia",
+    "continent": "Africa",
+    "total_users": 30,
+    "new_users": 27,
+    "sessions": 148,
+    "views_per_session": 2.43918918918918
+  },
+  {
+    "year": 2024,
+    "country": "Bahrain",
+    "continent": "Asia",
+    "total_users": 29,
+    "new_users": 26,
+    "sessions": 62,
+    "views_per_session": 2.19354838709677
+  },
+  {
+    "year": 2024,
+    "country": "Guadeloupe",
+    "continent": "North America",
+    "total_users": 29,
+    "new_users": 25,
+    "sessions": 55,
+    "views_per_session": 2.5090909090909
+  },
+  {
+    "year": 2024,
+    "country": "Kyrgyzstan",
+    "continent": "Asia",
+    "total_users": 29,
+    "new_users": 23,
+    "sessions": 257,
+    "views_per_session": 1.13229571984435
+  },
+  {
+    "year": 2024,
+    "country": "Malta",
+    "continent": "Europe",
+    "total_users": 29,
+    "new_users": 26,
+    "sessions": 49,
+    "views_per_session": 2.89795918367346
+  },
+  {
+    "year": 2024,
+    "country": "Libya",
+    "continent": "Africa",
+    "total_users": 28,
+    "new_users": 26,
+    "sessions": 81,
+    "views_per_session": 1.95061728395061
+  },
+  {
+    "year": 2024,
+    "country": "Ethiopia",
+    "continent": "Africa",
+    "total_users": 24,
+    "new_users": 27,
+    "sessions": 20,
+    "views_per_session": 21.2
+  },
+  {
+    "year": 2024,
+    "country": "Montenegro",
+    "continent": "Europe",
+    "total_users": 22,
+    "new_users": 20,
+    "sessions": 35,
+    "views_per_session": 2.57142857142857
+  },
+  {
+    "year": 2024,
+    "country": "R\u00e9union",
+    "continent": "Africa",
+    "total_users": 18,
+    "new_users": 14,
+    "sessions": 33,
+    "views_per_session": 2.57575757575757
+  },
+  {
+    "year": 2024,
+    "country": "Uganda",
+    "continent": "Africa",
+    "total_users": 18,
+    "new_users": 17,
+    "sessions": 19,
+    "views_per_session": 11.0526315789473
+  },
+  {
+    "year": 2024,
+    "country": "Tanzania",
+    "continent": "Africa",
+    "total_users": 17,
+    "new_users": 16,
+    "sessions": 36,
+    "views_per_session": 7.25
+  },
+  {
+    "year": 2024,
+    "country": "Yemen",
+    "continent": "Asia",
+    "total_users": 16,
+    "new_users": 18,
+    "sessions": 20,
+    "views_per_session": 11.65
+  },
+  {
+    "year": 2024,
+    "country": "Cambodia",
+    "continent": "Asia",
+    "total_users": 15,
+    "new_users": 14,
+    "sessions": 15,
+    "views_per_session": 4.86666666666666
+  },
+  {
+    "year": 2024,
+    "country": "Marshall Islands",
+    "continent": "Oceania",
+    "total_users": 15,
+    "new_users": 10,
+    "sessions": 22,
+    "views_per_session": 2.09090909090909
+  },
+  {
+    "year": 2024,
+    "country": "Nicaragua",
+    "continent": "North America",
+    "total_users": 15,
+    "new_users": 15,
+    "sessions": 51,
+    "views_per_session": 1.58823529411764
+  },
+  {
+    "year": 2024,
+    "country": "Kosovo",
+    "continent": "Europe",
+    "total_users": 14,
+    "new_users": 12,
+    "sessions": 60,
+    "views_per_session": 2.35
+  },
+  {
+    "year": 2024,
+    "country": "Myanmar (Burma)",
+    "continent": "Asia",
+    "total_users": 13,
+    "new_users": 12,
+    "sessions": 11,
+    "views_per_session": 13.2727272727272
+  },
+  {
+    "year": 2024,
+    "country": "Palau",
+    "continent": "Oceania",
+    "total_users": 13,
+    "new_users": 5,
+    "sessions": 17,
+    "views_per_session": 2.05882352941176
+  },
+  {
+    "year": 2024,
+    "country": "Iceland",
+    "continent": "Europe",
+    "total_users": 11,
+    "new_users": 9,
+    "sessions": 14,
+    "views_per_session": 3.14285714285714
+  },
+  {
+    "year": 2024,
+    "country": "Jamaica",
+    "continent": "North America",
+    "total_users": 11,
+    "new_users": 10,
+    "sessions": 17,
+    "views_per_session": 2.58823529411764
+  },
+  {
+    "year": 2024,
+    "country": "Mauritius",
+    "continent": "Africa",
+    "total_users": 11,
+    "new_users": 9,
+    "sessions": 15,
+    "views_per_session": 2.93333333333333
+  },
+  {
+    "year": 2024,
+    "country": "Somalia",
+    "continent": "Africa",
+    "total_users": 11,
+    "new_users": 11,
+    "sessions": 11,
+    "views_per_session": 3.45454545454545
+  },
+  {
+    "year": 2024,
+    "country": "Trinidad & Tobago",
+    "continent": "North America",
+    "total_users": 11,
+    "new_users": 10,
+    "sessions": 33,
+    "views_per_session": 1.87878787878787
+  },
+  {
+    "year": 2024,
+    "country": "Macao",
+    "continent": "Asia",
+    "total_users": 10,
+    "new_users": 9,
+    "sessions": 25,
+    "views_per_session": 1.96
+  },
+  {
+    "year": 2024,
+    "country": "Palestine",
+    "continent": "Asia",
+    "total_users": 10,
+    "new_users": 10,
+    "sessions": 11,
+    "views_per_session": 5.9090909090909
+  },
+  {
+    "year": 2024,
+    "country": "Sudan",
+    "continent": "Africa",
+    "total_users": 10,
+    "new_users": 10,
+    "sessions": 12,
+    "views_per_session": 8.08333333333333
+  },
+  {
+    "year": 2024,
+    "country": "Guam",
+    "continent": "Oceania",
+    "total_users": 9,
+    "new_users": 7,
+    "sessions": 19,
+    "views_per_session": 2.47368421052631
+  },
+  {
+    "year": 2024,
+    "country": "Zimbabwe",
+    "continent": "Africa",
+    "total_users": 9,
+    "new_users": 10,
+    "sessions": 8,
+    "views_per_session": 11.625
+  },
+  {
+    "year": 2024,
+    "country": "San Marino",
+    "continent": "Europe",
+    "total_users": 8,
+    "new_users": 6,
+    "sessions": 19,
+    "views_per_session": 2.36842105263157
+  },
+  {
+    "year": 2024,
+    "country": "Angola",
+    "continent": "Africa",
+    "total_users": 7,
+    "new_users": 9,
+    "sessions": 10,
+    "views_per_session": 19.9
+  },
+  {
+    "year": 2024,
+    "country": "Barbados",
+    "continent": "North America",
+    "total_users": 7,
+    "new_users": 7,
+    "sessions": 11,
+    "views_per_session": 2.81818181818181
+  },
+  {
+    "year": 2024,
+    "country": "C\u00f4te d\u2019Ivoire",
+    "continent": "Africa",
+    "total_users": 7,
+    "new_users": 6,
+    "sessions": 10,
+    "views_per_session": 14.0
+  },
+  {
+    "year": 2024,
+    "country": "Ghana",
+    "continent": "Africa",
+    "total_users": 7,
+    "new_users": 7,
+    "sessions": 6,
+    "views_per_session": 8.5
+  },
+  {
+    "year": 2024,
+    "country": "Turkmenistan",
+    "continent": "Asia",
+    "total_users": 7,
+    "new_users": 6,
+    "sessions": 10,
+    "views_per_session": 2.8
+  },
+  {
+    "year": 2024,
+    "country": "Cayman Islands",
+    "continent": "North America",
+    "total_users": 6,
+    "new_users": 5,
+    "sessions": 55,
+    "views_per_session": 1.25454545454545
+  },
+  {
+    "year": 2024,
+    "country": "Maldives",
+    "continent": "Asia",
+    "total_users": 6,
+    "new_users": 5,
+    "sessions": 12,
+    "views_per_session": 1.16666666666666
+  },
+  {
+    "year": 2024,
+    "country": "French Polynesia",
+    "continent": "Oceania",
+    "total_users": 5,
+    "new_users": 3,
+    "sessions": 54,
+    "views_per_session": 1.01851851851851
+  },
+  {
+    "year": 2024,
+    "country": "Malawi",
+    "continent": "Africa",
+    "total_users": 5,
+    "new_users": 9,
+    "sessions": 3,
+    "views_per_session": 65.0
+  },
+  {
+    "year": 2024,
+    "country": "Senegal",
+    "continent": "Africa",
+    "total_users": 5,
+    "new_users": 5,
+    "sessions": 15,
+    "views_per_session": 2.0
+  },
+  {
+    "year": 2024,
+    "country": "Afghanistan",
+    "continent": "Asia",
+    "total_users": 4,
+    "new_users": 4,
+    "sessions": 5,
+    "views_per_session": 3.0
+  },
+  {
+    "year": 2024,
+    "country": "Brunei",
+    "continent": "Asia",
+    "total_users": 4,
+    "new_users": 4,
+    "sessions": 4,
+    "views_per_session": 4.0
+  },
+  {
+    "year": 2024,
+    "country": "Cameroon",
+    "continent": "Africa",
+    "total_users": 4,
+    "new_users": 3,
+    "sessions": 3,
+    "views_per_session": 11.6666666666666
+  },
+  {
+    "year": 2024,
+    "country": "Cape Verde",
+    "continent": "Africa",
+    "total_users": 4,
+    "new_users": 2,
+    "sessions": 6,
+    "views_per_session": 2.0
+  },
+  {
+    "year": 2024,
+    "country": "Congo - Kinshasa",
+    "continent": "Africa",
+    "total_users": 4,
+    "new_users": 4,
+    "sessions": 1,
+    "views_per_session": 93.0
+  },
+  {
+    "year": 2024,
+    "country": "Guernsey",
+    "continent": "Europe",
+    "total_users": 4,
+    "new_users": 4,
+    "sessions": 6,
+    "views_per_session": 1.66666666666666
+  },
+  {
+    "year": 2024,
+    "country": "Jersey",
+    "continent": "Europe",
+    "total_users": 4,
+    "new_users": 4,
+    "sessions": 8,
+    "views_per_session": 2.625
+  },
+  {
+    "year": 2024,
+    "country": "Martinique",
+    "continent": "North America",
+    "total_users": 4,
+    "new_users": 4,
+    "sessions": 5,
+    "views_per_session": 2.6
+  },
+  {
+    "year": 2024,
+    "country": "Mayotte",
+    "continent": "Africa",
+    "total_users": 4,
+    "new_users": 3,
+    "sessions": 7,
+    "views_per_session": 2.42857142857142
+  },
+  {
+    "year": 2024,
+    "country": "New Caledonia",
+    "continent": "Oceania",
+    "total_users": 4,
+    "new_users": 3,
+    "sessions": 4,
+    "views_per_session": 2.5
+  },
+  {
+    "year": 2024,
+    "country": "Zambia",
+    "continent": "Africa",
+    "total_users": 4,
+    "new_users": 4,
+    "sessions": 3,
+    "views_per_session": 12.3333333333333
+  },
+  {
+    "year": 2024,
+    "country": "Burkina Faso",
+    "continent": "Africa",
+    "total_users": 3,
+    "new_users": 3,
+    "sessions": 2,
+    "views_per_session": 17.5
+  },
+  {
+    "year": 2024,
+    "country": "Caribbean Netherlands",
+    "continent": "North America",
+    "total_users": 3,
+    "new_users": 1,
+    "sessions": 5,
+    "views_per_session": 1.2
+  },
+  {
+    "year": 2024,
+    "country": "Gibraltar",
+    "continent": "Europe",
+    "total_users": 3,
+    "new_users": 2,
+    "sessions": 5,
+    "views_per_session": 1.4
+  },
+  {
+    "year": 2024,
+    "country": "Laos",
+    "continent": "Asia",
+    "total_users": 3,
+    "new_users": 3,
+    "sessions": 3,
+    "views_per_session": 3.33333333333333
+  },
+  {
+    "year": 2024,
+    "country": "Niger",
+    "continent": "Africa",
+    "total_users": 3,
+    "new_users": 4,
+    "sessions": 0,
+    "views_per_session": 0.0
+  },
+  {
+    "year": 2024,
+    "country": "Bahamas",
+    "continent": "North America",
+    "total_users": 2,
+    "new_users": 1,
+    "sessions": 6,
+    "views_per_session": 1.33333333333333
+  },
+  {
+    "year": 2024,
+    "country": "Fiji",
+    "continent": "Oceania",
+    "total_users": 2,
+    "new_users": 2,
+    "sessions": 9,
+    "views_per_session": 4.22222222222222
+  },
+  {
+    "year": 2024,
+    "country": "Guyana",
+    "continent": "South America",
+    "total_users": 2,
+    "new_users": 2,
+    "sessions": 2,
+    "views_per_session": 4.0
+  },
+  {
+    "year": 2024,
+    "country": "Isle of Man",
+    "continent": "Europe",
+    "total_users": 2,
+    "new_users": 1,
+    "sessions": 3,
+    "views_per_session": 1.66666666666666
+  },
+  {
+    "year": 2024,
+    "country": "Mozambique",
+    "continent": "Africa",
+    "total_users": 2,
+    "new_users": 2,
+    "sessions": 1,
+    "views_per_session": 33.0
+  },
+  {
+    "year": 2024,
+    "country": "Papua New Guinea",
+    "continent": "Oceania",
+    "total_users": 2,
+    "new_users": 2,
+    "sessions": 2,
+    "views_per_session": 4.5
+  },
+  {
+    "year": 2024,
+    "country": "Rwanda",
+    "continent": "Africa",
+    "total_users": 2,
+    "new_users": 3,
+    "sessions": 1,
+    "views_per_session": 63.0
+  },
+  {
+    "year": 2024,
+    "country": "Aruba",
+    "continent": "North America",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 3.0
+  },
+  {
+    "year": 2024,
+    "country": "Bhutan",
+    "continent": "Asia",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 3.0
+  },
+  {
+    "year": 2024,
+    "country": "Botswana",
+    "continent": "Africa",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 7.0
+  },
+  {
+    "year": 2024,
+    "country": "British Virgin Islands",
+    "continent": "North America",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 3.0
+  },
+  {
+    "year": 2024,
+    "country": "Burundi",
+    "continent": "Africa",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 4.0
+  },
+  {
+    "year": 2024,
+    "country": "Cura\u00e7ao",
+    "continent": "North America",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 2,
+    "views_per_session": 3.5
+  },
+  {
+    "year": 2024,
+    "country": "Equatorial Guinea",
+    "continent": "Africa",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 3.0
+  },
+  {
+    "year": 2024,
+    "country": "Gambia",
+    "continent": "Africa",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 4.0
+  },
+  {
+    "year": 2024,
+    "country": "Grenada",
+    "continent": "North America",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 3.0
+  },
+  {
+    "year": 2024,
+    "country": "Haiti",
+    "continent": "North America",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 0,
+    "views_per_session": 0.0
+  },
+  {
+    "year": 2024,
+    "country": "Liechtenstein",
+    "continent": "Europe",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 4.0
+  },
+  {
+    "year": 2024,
+    "country": "Madagascar",
+    "continent": "Africa",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 3.0
+  },
+  {
+    "year": 2024,
+    "country": "Monaco",
+    "continent": "Europe",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 6,
+    "views_per_session": 1.5
+  },
+  {
+    "year": 2024,
+    "country": "Seychelles",
+    "continent": "Africa",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 3.0
+  },
+  {
+    "year": 2024,
+    "country": "Sierra Leone",
+    "continent": "Africa",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 0,
+    "views_per_session": 0.0
+  },
+  {
+    "year": 2024,
+    "country": "Sint Maarten",
+    "continent": "North America",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 1.0
+  },
+  {
+    "year": 2024,
+    "country": "Suriname",
+    "continent": "South America",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 4.0
+  },
+  {
+    "year": 2024,
+    "country": "Timor-Leste",
+    "continent": "Asia",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 2.0
+  },
+  {
+    "year": 2024,
+    "country": "Togo",
+    "continent": "Africa",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 5.0
+  },
+  {
+    "year": 2024,
+    "country": "Turks & Caicos Islands",
+    "continent": "North America",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 3.0
+  },
+  {
+    "year": 2025,
+    "country": "United States",
+    "continent": "North America",
+    "total_users": 17320,
+    "new_users": 15985,
+    "sessions": 58444,
+    "views_per_session": 3.09896653206488
+  },
+  {
+    "year": 2025,
+    "country": "Brazil",
+    "continent": "South America",
+    "total_users": 16278,
+    "new_users": 14540,
+    "sessions": 79783,
+    "views_per_session": 2.06874898161262
+  },
+  {
+    "year": 2025,
+    "country": "Spain",
+    "continent": "Europe",
+    "total_users": 15012,
+    "new_users": 12847,
+    "sessions": 78241,
+    "views_per_session": 2.08600350200023
+  },
+  {
+    "year": 2025,
+    "country": "Russia",
+    "continent": "Europe",
+    "total_users": 9923,
+    "new_users": 8394,
+    "sessions": 103054,
+    "views_per_session": 1.89638441981873
+  },
+  {
+    "year": 2025,
+    "country": "Belgium",
+    "continent": "Europe",
+    "total_users": 9217,
+    "new_users": 8840,
+    "sessions": 20335,
+    "views_per_session": 2.39375461027784
+  },
+  {
+    "year": 2025,
+    "country": "Italy",
+    "continent": "Europe",
+    "total_users": 8845,
+    "new_users": 7703,
+    "sessions": 40266,
+    "views_per_session": 2.06109372671733
+  },
+  {
+    "year": 2025,
+    "country": "Germany",
+    "continent": "Europe",
+    "total_users": 8685,
+    "new_users": 7631,
+    "sessions": 49899,
+    "views_per_session": 1.99931862361971
+  },
+  {
+    "year": 2025,
+    "country": "France",
+    "continent": "Europe",
+    "total_users": 8092,
+    "new_users": 7216,
+    "sessions": 29346,
+    "views_per_session": 2.21147686226402
+  },
+  {
+    "year": 2025,
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "total_users": 6332,
+    "new_users": 5795,
+    "sessions": 22776,
+    "views_per_session": 2.17175974710221
+  },
+  {
+    "year": 2025,
+    "country": "India",
+    "continent": "Asia",
+    "total_users": 6058,
+    "new_users": 5759,
+    "sessions": 20583,
+    "views_per_session": 2.33027255502113
+  },
+  {
+    "year": 2025,
+    "country": "South Korea",
+    "continent": "Asia",
+    "total_users": 5789,
+    "new_users": 5462,
+    "sessions": 36991,
+    "views_per_session": 1.92262982887729
+  },
+  {
+    "year": 2025,
+    "country": "China",
+    "continent": "Asia",
+    "total_users": 5775,
+    "new_users": 5162,
+    "sessions": 16317,
+    "views_per_session": 2.23196666053808
+  },
+  {
+    "year": 2025,
+    "country": "Mexico",
+    "continent": "North America",
+    "total_users": 4389,
+    "new_users": 4019,
+    "sessions": 20555,
+    "views_per_session": 2.16521527608854
+  },
+  {
+    "year": 2025,
+    "country": "Argentina",
+    "continent": "South America",
+    "total_users": 3934,
+    "new_users": 3457,
+    "sessions": 19849,
+    "views_per_session": 2.024031437352
+  },
+  {
+    "year": 2025,
+    "country": "Chile",
+    "continent": "South America",
+    "total_users": 3381,
+    "new_users": 3034,
+    "sessions": 15549,
+    "views_per_session": 2.06257637147083
+  },
+  {
+    "year": 2025,
+    "country": "T\u00fcrkiye",
+    "continent": "Europe",
+    "total_users": 3207,
+    "new_users": 2903,
+    "sessions": 15204,
+    "views_per_session": 2.02492765061825
+  },
+  {
+    "year": 2025,
+    "country": "Switzerland",
+    "continent": "Europe",
+    "total_users": 3082,
+    "new_users": 2720,
+    "sessions": 16567,
+    "views_per_session": 1.92038389569626
+  },
+  {
+    "year": 2025,
+    "country": "Portugal",
+    "continent": "Europe",
+    "total_users": 2862,
+    "new_users": 2502,
+    "sessions": 9634,
+    "views_per_session": 2.22565912393606
+  },
+  {
+    "year": 2025,
+    "country": "Japan",
+    "continent": "Asia",
+    "total_users": 2831,
+    "new_users": 2547,
+    "sessions": 13108,
+    "views_per_session": 2.16142813548977
+  },
+  {
+    "year": 2025,
+    "country": "Australia",
+    "continent": "Oceania",
+    "total_users": 2280,
+    "new_users": 2003,
+    "sessions": 10936,
+    "views_per_session": 2.06757498171177
+  },
+  {
+    "year": 2025,
+    "country": "Netherlands",
+    "continent": "Europe",
+    "total_users": 2204,
+    "new_users": 1979,
+    "sessions": 4741,
+    "views_per_session": 2.24952541657878
+  },
+  {
+    "year": 2025,
+    "country": "Poland",
+    "continent": "Europe",
+    "total_users": 1953,
+    "new_users": 1640,
+    "sessions": 8557,
+    "views_per_session": 2.12165478555568
+  },
+  {
+    "year": 2025,
+    "country": "Colombia",
+    "continent": "South America",
+    "total_users": 1891,
+    "new_users": 1720,
+    "sessions": 7460,
+    "views_per_session": 2.45817694369973
+  },
+  {
+    "year": 2025,
+    "country": "Austria",
+    "continent": "Europe",
+    "total_users": 1686,
+    "new_users": 1433,
+    "sessions": 6734,
+    "views_per_session": 2.24621324621324
+  },
+  {
+    "year": 2025,
+    "country": "Canada",
+    "continent": "North America",
+    "total_users": 1681,
+    "new_users": 1472,
+    "sessions": 11068,
+    "views_per_session": 2.15675822190097
+  },
+  {
+    "year": 2025,
+    "country": "Israel",
+    "continent": "Asia",
+    "total_users": 1406,
+    "new_users": 1237,
+    "sessions": 8720,
+    "views_per_session": 1.9973623853211
+  },
+  {
+    "year": 2025,
+    "country": "Ukraine",
+    "continent": "Europe",
+    "total_users": 1299,
+    "new_users": 1154,
+    "sessions": 10131,
+    "views_per_session": 1.92527884710295
+  },
+  {
+    "year": 2025,
+    "country": "Saudi Arabia",
+    "continent": "Asia",
+    "total_users": 1283,
+    "new_users": 1189,
+    "sessions": 5954,
+    "views_per_session": 2.08246556936513
+  },
+  {
+    "year": 2025,
+    "country": "Taiwan",
+    "continent": "Asia",
+    "total_users": 1183,
+    "new_users": 1085,
+    "sessions": 5209,
+    "views_per_session": 2.12401612593588
+  },
+  {
+    "year": 2025,
+    "country": "Iran",
+    "continent": "Asia",
+    "total_users": 1148,
+    "new_users": 1006,
+    "sessions": 5960,
+    "views_per_session": 2.03020134228187
+  },
+  {
+    "year": 2025,
+    "country": "Czechia",
+    "continent": "Europe",
+    "total_users": 1091,
+    "new_users": 891,
+    "sessions": 8104,
+    "views_per_session": 1.81651036525172
+  },
+  {
+    "year": 2025,
+    "country": "Romania",
+    "continent": "Europe",
+    "total_users": 1017,
+    "new_users": 853,
+    "sessions": 6948,
+    "views_per_session": 2.23733448474381
+  },
+  {
+    "year": 2025,
+    "country": "Thailand",
+    "continent": "Asia",
+    "total_users": 1005,
+    "new_users": 947,
+    "sessions": 2567,
+    "views_per_session": 2.44176081028437
+  },
+  {
+    "year": 2025,
+    "country": "Ireland",
+    "continent": "Europe",
+    "total_users": 1002,
+    "new_users": 949,
+    "sessions": 1880,
+    "views_per_session": 2.03351063829787
+  },
+  {
+    "year": 2025,
+    "country": "Peru",
+    "continent": "South America",
+    "total_users": 968,
+    "new_users": 856,
+    "sessions": 4684,
+    "views_per_session": 2.01259607173356
+  },
+  {
+    "year": 2025,
+    "country": "Egypt",
+    "continent": "Africa",
+    "total_users": 909,
+    "new_users": 819,
+    "sessions": 3477,
+    "views_per_session": 2.30025884383088
+  },
+  {
+    "year": 2025,
+    "country": "Greece",
+    "continent": "Europe",
+    "total_users": 894,
+    "new_users": 800,
+    "sessions": 2873,
+    "views_per_session": 2.6240863209189
+  },
+  {
+    "year": 2025,
+    "country": "Hong Kong",
+    "continent": "Asia",
+    "total_users": 846,
+    "new_users": 653,
+    "sessions": 4313,
+    "views_per_session": 1.99072571296081
+  },
+  {
+    "year": 2025,
+    "country": "South Africa",
+    "continent": "Africa",
+    "total_users": 833,
+    "new_users": 710,
+    "sessions": 6767,
+    "views_per_session": 2.07019358652283
+  },
+  {
+    "year": 2025,
+    "country": "Malaysia",
+    "continent": "Asia",
+    "total_users": 784,
+    "new_users": 684,
+    "sessions": 5098,
+    "views_per_session": 1.74754805806198
+  },
+  {
+    "year": 2025,
+    "country": "Finland",
+    "continent": "Europe",
+    "total_users": 748,
+    "new_users": 624,
+    "sessions": 2803,
+    "views_per_session": 1.7070995362112
+  },
+  {
+    "year": 2025,
+    "country": "Kazakhstan",
+    "continent": "Asia",
+    "total_users": 714,
+    "new_users": 624,
+    "sessions": 6865,
+    "views_per_session": 1.92498179169701
+  },
+  {
+    "year": 2025,
+    "country": "Indonesia",
+    "continent": "Asia",
+    "total_users": 704,
+    "new_users": 602,
+    "sessions": 2441,
+    "views_per_session": 2.49201147070872
+  },
+  {
+    "year": 2025,
+    "country": "Singapore",
+    "continent": "Asia",
+    "total_users": 689,
+    "new_users": 361,
+    "sessions": 1695,
+    "views_per_session": 1.71917404129793
+  },
+  {
+    "year": 2025,
+    "country": "Venezuela",
+    "continent": "South America",
+    "total_users": 687,
+    "new_users": 617,
+    "sessions": 2859,
+    "views_per_session": 2.26302903112976
+  },
+  {
+    "year": 2025,
+    "country": "Hungary",
+    "continent": "Europe",
+    "total_users": 648,
+    "new_users": 544,
+    "sessions": 2585,
+    "views_per_session": 2.42785299806576
+  },
+  {
+    "year": 2025,
+    "country": "Philippines",
+    "continent": "Asia",
+    "total_users": 647,
+    "new_users": 589,
+    "sessions": 2248,
+    "views_per_session": 2.288256227758
+  },
+  {
+    "year": 2025,
+    "country": "Denmark",
+    "continent": "Europe",
+    "total_users": 637,
+    "new_users": 516,
+    "sessions": 3097,
+    "views_per_session": 2.05715208266063
+  },
+  {
+    "year": 2025,
+    "country": "United Arab Emirates",
+    "continent": "Asia",
+    "total_users": 635,
+    "new_users": 562,
+    "sessions": 2812,
+    "views_per_session": 2.02702702702702
+  },
+  {
+    "year": 2025,
+    "country": "Morocco",
+    "continent": "Africa",
+    "total_users": 594,
+    "new_users": 559,
+    "sessions": 3076,
+    "views_per_session": 2.16189856957087
+  },
+  {
+    "year": 2025,
+    "country": "Sweden",
+    "continent": "Europe",
+    "total_users": 592,
+    "new_users": 521,
+    "sessions": 2245,
+    "views_per_session": 2.27349665924276
+  },
+  {
+    "year": 2025,
+    "country": "New Zealand",
+    "continent": "Oceania",
+    "total_users": 545,
+    "new_users": 467,
+    "sessions": 1804,
+    "views_per_session": 1.95288248337028
+  },
+  {
+    "year": 2025,
+    "country": "Belarus",
+    "continent": "Europe",
+    "total_users": 534,
+    "new_users": 490,
+    "sessions": 6351,
+    "views_per_session": 1.84333175877814
+  },
+  {
+    "year": 2025,
+    "country": "Bulgaria",
+    "continent": "Europe",
+    "total_users": 502,
+    "new_users": 453,
+    "sessions": 2081,
+    "views_per_session": 2.08841902931283
+  },
+  {
+    "year": 2025,
+    "country": "Pakistan",
+    "continent": "Asia",
+    "total_users": 400,
+    "new_users": 376,
+    "sessions": 1560,
+    "views_per_session": 2.45192307692307
+  },
+  {
+    "year": 2025,
+    "country": "Uzbekistan",
+    "continent": "Asia",
+    "total_users": 331,
+    "new_users": 297,
+    "sessions": 2541,
+    "views_per_session": 1.76190476190476
+  },
+  {
+    "year": 2025,
+    "country": "Algeria",
+    "continent": "Africa",
+    "total_users": 330,
+    "new_users": 302,
+    "sessions": 1195,
+    "views_per_session": 2.57907949790794
+  },
+  {
+    "year": 2025,
+    "country": "Norway",
+    "continent": "Europe",
+    "total_users": 327,
+    "new_users": 277,
+    "sessions": 1646,
+    "views_per_session": 1.87667071688942
+  },
+  {
+    "year": 2025,
+    "country": "Vietnam",
+    "continent": "Asia",
+    "total_users": 314,
+    "new_users": 299,
+    "sessions": 724,
+    "views_per_session": 2.79696132596685
+  },
+  {
+    "year": 2025,
+    "country": "Guatemala",
+    "continent": "North America",
+    "total_users": 312,
+    "new_users": 267,
+    "sessions": 2218,
+    "views_per_session": 1.68169522091974
+  },
+  {
+    "year": 2025,
+    "country": "Croatia",
+    "continent": "Europe",
+    "total_users": 296,
+    "new_users": 224,
+    "sessions": 3457,
+    "views_per_session": 1.64217529649985
+  },
+  {
+    "year": 2025,
+    "country": "Slovakia",
+    "continent": "Europe",
+    "total_users": 296,
+    "new_users": 237,
+    "sessions": 2221,
+    "views_per_session": 1.77262494371904
+  },
+  {
+    "year": 2025,
+    "country": "Ecuador",
+    "continent": "South America",
+    "total_users": 278,
+    "new_users": 238,
+    "sessions": 1384,
+    "views_per_session": 2.27673410404624
+  },
+  {
+    "year": 2025,
+    "country": "Paraguay",
+    "continent": "South America",
+    "total_users": 273,
+    "new_users": 252,
+    "sessions": 948,
+    "views_per_session": 2.01371308016877
+  },
+  {
+    "year": 2025,
+    "country": "Dominican Republic",
+    "continent": "North America",
+    "total_users": 272,
+    "new_users": 239,
+    "sessions": 1116,
+    "views_per_session": 2.00627240143369
+  },
+  {
+    "year": 2025,
+    "country": "Iraq",
+    "continent": "Asia",
+    "total_users": 268,
+    "new_users": 245,
+    "sessions": 807,
+    "views_per_session": 2.31226765799256
+  },
+  {
+    "year": 2025,
+    "country": "Jordan",
+    "continent": "Asia",
+    "total_users": 237,
+    "new_users": 206,
+    "sessions": 779,
+    "views_per_session": 2.1193838254172
+  },
+  {
+    "year": 2025,
+    "country": "Serbia",
+    "continent": "Europe",
+    "total_users": 226,
+    "new_users": 194,
+    "sessions": 855,
+    "views_per_session": 2.45614035087719
+  },
+  {
+    "year": 2025,
+    "country": "Armenia",
+    "continent": "Asia",
+    "total_users": 197,
+    "new_users": 180,
+    "sessions": 1025,
+    "views_per_session": 2.06731707317073
+  },
+  {
+    "year": 2025,
+    "country": "Lebanon",
+    "continent": "Asia",
+    "total_users": 150,
+    "new_users": 129,
+    "sessions": 455,
+    "views_per_session": 2.49890109890109
+  },
+  {
+    "year": 2025,
+    "country": "Uruguay",
+    "continent": "South America",
+    "total_users": 147,
+    "new_users": 125,
+    "sessions": 526,
+    "views_per_session": 2.15969581749049
+  },
+  {
+    "year": 2025,
+    "country": "Azerbaijan",
+    "continent": "Asia",
+    "total_users": 145,
+    "new_users": 126,
+    "sessions": 340,
+    "views_per_session": 2.55
+  },
+  {
+    "year": 2025,
+    "country": "El Salvador",
+    "continent": "North America",
+    "total_users": 144,
+    "new_users": 131,
+    "sessions": 473,
+    "views_per_session": 1.96617336152219
+  },
+  {
+    "year": 2025,
+    "country": "Syria",
+    "continent": "Asia",
+    "total_users": 121,
+    "new_users": 105,
+    "sessions": 384,
+    "views_per_session": 2.67447916666666
+  },
+  {
+    "year": 2025,
+    "country": "Latvia",
+    "continent": "Europe",
+    "total_users": 118,
+    "new_users": 104,
+    "sessions": 804,
+    "views_per_session": 2.48507462686567
+  },
+  {
+    "year": 2025,
+    "country": "Lithuania",
+    "continent": "Europe",
+    "total_users": 114,
+    "new_users": 91,
+    "sessions": 742,
+    "views_per_session": 1.88274932614555
+  },
+  {
+    "year": 2025,
+    "country": "Bangladesh",
+    "continent": "Asia",
+    "total_users": 112,
+    "new_users": 111,
+    "sessions": 180,
+    "views_per_session": 5.23888888888888
+  },
+  {
+    "year": 2025,
+    "country": "Honduras",
+    "continent": "North America",
+    "total_users": 112,
+    "new_users": 97,
+    "sessions": 539,
+    "views_per_session": 1.61595547309833
+  },
+  {
+    "year": 2025,
+    "country": "Kuwait",
+    "continent": "Asia",
+    "total_users": 112,
+    "new_users": 107,
+    "sessions": 580,
+    "views_per_session": 1.97241379310344
+  },
+  {
+    "year": 2025,
+    "country": "Tunisia",
+    "continent": "Africa",
+    "total_users": 105,
+    "new_users": 95,
+    "sessions": 226,
+    "views_per_session": 2.53982300884955
+  },
+  {
+    "year": 2025,
+    "country": "Costa Rica",
+    "continent": "North America",
+    "total_users": 101,
+    "new_users": 95,
+    "sessions": 478,
+    "views_per_session": 2.03765690376569
+  },
+  {
+    "year": 2025,
+    "country": "Oman",
+    "continent": "Asia",
+    "total_users": 101,
+    "new_users": 83,
+    "sessions": 424,
+    "views_per_session": 2.1438679245283
+  },
+  {
+    "year": 2025,
+    "country": "Cyprus",
+    "continent": "Asia",
+    "total_users": 92,
+    "new_users": 80,
+    "sessions": 439,
+    "views_per_session": 1.92027334851936
+  },
+  {
+    "year": 2025,
+    "country": "Georgia",
+    "continent": "Asia",
+    "total_users": 92,
+    "new_users": 85,
+    "sessions": 219,
+    "views_per_session": 2.29223744292237
+  },
+  {
+    "year": 2025,
+    "country": "(not set)",
+    "continent": "Unknown",
+    "total_users": 91,
+    "new_users": 55,
+    "sessions": 196,
+    "views_per_session": 2.91326530612244
+  },
+  {
+    "year": 2025,
+    "country": "Panama",
+    "continent": "North America",
+    "total_users": 84,
+    "new_users": 75,
+    "sessions": 290,
+    "views_per_session": 2.24482758620689
+  },
+  {
+    "year": 2025,
+    "country": "Nepal",
+    "continent": "Asia",
+    "total_users": 83,
+    "new_users": 79,
+    "sessions": 177,
+    "views_per_session": 2.84745762711864
+  },
+  {
+    "year": 2025,
+    "country": "Luxembourg",
+    "continent": "Europe",
+    "total_users": 79,
+    "new_users": 70,
+    "sessions": 230,
+    "views_per_session": 2.06521739130434
+  },
+  {
+    "year": 2025,
+    "country": "Qatar",
+    "continent": "Asia",
+    "total_users": 79,
+    "new_users": 69,
+    "sessions": 228,
+    "views_per_session": 2.32894736842105
+  },
+  {
+    "year": 2025,
+    "country": "Albania",
+    "continent": "Europe",
+    "total_users": 77,
+    "new_users": 63,
+    "sessions": 215,
+    "views_per_session": 2.37674418604651
+  },
+  {
+    "year": 2025,
+    "country": "Cambodia",
+    "continent": "Asia",
+    "total_users": 68,
+    "new_users": 68,
+    "sessions": 133,
+    "views_per_session": 2.45112781954887
+  },
+  {
+    "year": 2025,
+    "country": "Kyrgyzstan",
+    "continent": "Asia",
+    "total_users": 68,
+    "new_users": 58,
+    "sessions": 464,
+    "views_per_session": 2.03879310344827
+  },
+  {
+    "year": 2025,
+    "country": "Slovenia",
+    "continent": "Europe",
+    "total_users": 67,
+    "new_users": 54,
+    "sessions": 173,
+    "views_per_session": 2.42774566473988
+  },
+  {
+    "year": 2025,
+    "country": "Bolivia",
+    "continent": "South America",
+    "total_users": 63,
+    "new_users": 57,
+    "sessions": 371,
+    "views_per_session": 1.90026954177897
+  },
+  {
+    "year": 2025,
+    "country": "North Macedonia",
+    "continent": "Europe",
+    "total_users": 62,
+    "new_users": 54,
+    "sessions": 378,
+    "views_per_session": 1.91269841269841
+  },
+  {
+    "year": 2025,
+    "country": "Moldova",
+    "continent": "Europe",
+    "total_users": 59,
+    "new_users": 46,
+    "sessions": 212,
+    "views_per_session": 2.14150943396226
+  },
+  {
+    "year": 2025,
+    "country": "Estonia",
+    "continent": "Europe",
+    "total_users": 57,
+    "new_users": 41,
+    "sessions": 285,
+    "views_per_session": 1.66315789473684
+  },
+  {
+    "year": 2025,
+    "country": "Puerto Rico",
+    "continent": "North America",
+    "total_users": 56,
+    "new_users": 51,
+    "sessions": 398,
+    "views_per_session": 1.82663316582914
+  },
+  {
+    "year": 2025,
+    "country": "Tajikistan",
+    "continent": "Asia",
+    "total_users": 55,
+    "new_users": 45,
+    "sessions": 643,
+    "views_per_session": 2.10419906687402
+  },
+  {
+    "year": 2025,
+    "country": "Bosnia & Herzegovina",
+    "continent": "Europe",
+    "total_users": 49,
+    "new_users": 40,
+    "sessions": 149,
+    "views_per_session": 1.87248322147651
+  },
+  {
+    "year": 2025,
+    "country": "Sri Lanka",
+    "continent": "Asia",
+    "total_users": 49,
+    "new_users": 44,
+    "sessions": 65,
+    "views_per_session": 4.5076923076923
+  },
+  {
+    "year": 2025,
+    "country": "Kenya",
+    "continent": "Africa",
+    "total_users": 48,
+    "new_users": 44,
+    "sessions": 110,
+    "views_per_session": 3.04545454545454
+  },
+  {
+    "year": 2025,
+    "country": "Malta",
+    "continent": "Europe",
+    "total_users": 45,
+    "new_users": 41,
+    "sessions": 84,
+    "views_per_session": 2.4047619047619
+  },
+  {
+    "year": 2025,
+    "country": "Cuba",
+    "continent": "North America",
+    "total_users": 43,
+    "new_users": 36,
+    "sessions": 71,
+    "views_per_session": 4.53521126760563
+  },
+  {
+    "year": 2025,
+    "country": "Bahrain",
+    "continent": "Asia",
+    "total_users": 41,
+    "new_users": 36,
+    "sessions": 122,
+    "views_per_session": 2.36065573770491
+  },
+  {
+    "year": 2025,
+    "country": "Andorra",
+    "continent": "Europe",
+    "total_users": 40,
+    "new_users": 34,
+    "sessions": 151,
+    "views_per_session": 3.07947019867549
+  },
+  {
+    "year": 2025,
+    "country": "Ghana",
+    "continent": "Africa",
+    "total_users": 36,
+    "new_users": 35,
+    "sessions": 43,
+    "views_per_session": 4.3953488372093
+  },
+  {
+    "year": 2025,
+    "country": "Libya",
+    "continent": "Africa",
+    "total_users": 36,
+    "new_users": 33,
+    "sessions": 118,
+    "views_per_session": 2.51694915254237
+  },
+  {
+    "year": 2025,
+    "country": "Kosovo",
+    "continent": "Europe",
+    "total_users": 35,
+    "new_users": 29,
+    "sessions": 170,
+    "views_per_session": 2.06470588235294
+  },
+  {
+    "year": 2025,
+    "country": "Mongolia",
+    "continent": "Asia",
+    "total_users": 34,
+    "new_users": 32,
+    "sessions": 65,
+    "views_per_session": 2.4
+  },
+  {
+    "year": 2025,
+    "country": "Namibia",
+    "continent": "Africa",
+    "total_users": 34,
+    "new_users": 28,
+    "sessions": 560,
+    "views_per_session": 1.89285714285714
+  },
+  {
+    "year": 2025,
+    "country": "Montenegro",
+    "continent": "Europe",
+    "total_users": 32,
+    "new_users": 25,
+    "sessions": 52,
+    "views_per_session": 2.96153846153846
+  },
+  {
+    "year": 2025,
+    "country": "Nicaragua",
+    "continent": "North America",
+    "total_users": 30,
+    "new_users": 26,
+    "sessions": 270,
+    "views_per_session": 1.71481481481481
+  },
+  {
+    "year": 2025,
+    "country": "Nigeria",
+    "continent": "Africa",
+    "total_users": 27,
+    "new_users": 27,
+    "sessions": 30,
+    "views_per_session": 10.5666666666666
+  },
+  {
+    "year": 2025,
+    "country": "Mauritius",
+    "continent": "Africa",
+    "total_users": 25,
+    "new_users": 17,
+    "sessions": 78,
+    "views_per_session": 2.38461538461538
+  },
+  {
+    "year": 2025,
+    "country": "Guam",
+    "continent": "Oceania",
+    "total_users": 23,
+    "new_users": 23,
+    "sessions": 108,
+    "views_per_session": 2.13888888888888
+  },
+  {
+    "year": 2025,
+    "country": "Palestine",
+    "continent": "Asia",
+    "total_users": 23,
+    "new_users": 22,
+    "sessions": 33,
+    "views_per_session": 3.3030303030303
+  },
+  {
+    "year": 2025,
+    "country": "Ethiopia",
+    "continent": "Africa",
+    "total_users": 20,
+    "new_users": 19,
+    "sessions": 22,
+    "views_per_session": 8.18181818181818
+  },
+  {
+    "year": 2025,
+    "country": "Myanmar (Burma)",
+    "continent": "Asia",
+    "total_users": 20,
+    "new_users": 17,
+    "sessions": 28,
+    "views_per_session": 5.92857142857142
+  },
+  {
+    "year": 2025,
+    "country": "Tanzania",
+    "continent": "Africa",
+    "total_users": 20,
+    "new_users": 20,
+    "sessions": 21,
+    "views_per_session": 6.0
+  },
+  {
+    "year": 2025,
+    "country": "Martinique",
+    "continent": "North America",
+    "total_users": 18,
+    "new_users": 18,
+    "sessions": 41,
+    "views_per_session": 2.14634146341463
+  },
+  {
+    "year": 2025,
+    "country": "R\u00e9union",
+    "continent": "Africa",
+    "total_users": 18,
+    "new_users": 13,
+    "sessions": 38,
+    "views_per_session": 2.60526315789473
+  },
+  {
+    "year": 2025,
+    "country": "San Marino",
+    "continent": "Europe",
+    "total_users": 18,
+    "new_users": 12,
+    "sessions": 49,
+    "views_per_session": 2.24489795918367
+  },
+  {
+    "year": 2025,
+    "country": "Sudan",
+    "continent": "Africa",
+    "total_users": 16,
+    "new_users": 16,
+    "sessions": 15,
+    "views_per_session": 7.13333333333333
+  },
+  {
+    "year": 2025,
+    "country": "Guadeloupe",
+    "continent": "North America",
+    "total_users": 14,
+    "new_users": 10,
+    "sessions": 57,
+    "views_per_session": 1.78947368421052
+  },
+  {
+    "year": 2025,
+    "country": "Iceland",
+    "continent": "Europe",
+    "total_users": 13,
+    "new_users": 12,
+    "sessions": 28,
+    "views_per_session": 2.28571428571428
+  },
+  {
+    "year": 2025,
+    "country": "Yemen",
+    "continent": "Asia",
+    "total_users": 13,
+    "new_users": 13,
+    "sessions": 15,
+    "views_per_session": 8.4
+  },
+  {
+    "year": 2025,
+    "country": "Macao",
+    "continent": "Asia",
+    "total_users": 12,
+    "new_users": 11,
+    "sessions": 34,
+    "views_per_session": 1.91176470588235
+  },
+  {
+    "year": 2025,
+    "country": "Trinidad & Tobago",
+    "continent": "North America",
+    "total_users": 12,
+    "new_users": 8,
+    "sessions": 18,
+    "views_per_session": 2.16666666666666
+  },
+  {
+    "year": 2025,
+    "country": "Cayman Islands",
+    "continent": "North America",
+    "total_users": 11,
+    "new_users": 9,
+    "sessions": 29,
+    "views_per_session": 1.75862068965517
+  },
+  {
+    "year": 2025,
+    "country": "Guernsey",
+    "continent": "Europe",
+    "total_users": 11,
+    "new_users": 10,
+    "sessions": 93,
+    "views_per_session": 1.89247311827957
+  },
+  {
+    "year": 2025,
+    "country": "Afghanistan",
+    "continent": "Asia",
+    "total_users": 10,
+    "new_users": 10,
+    "sessions": 11,
+    "views_per_session": 3.63636363636363
+  },
+  {
+    "year": 2025,
+    "country": "Jersey",
+    "continent": "Europe",
+    "total_users": 10,
+    "new_users": 9,
+    "sessions": 40,
+    "views_per_session": 2.0
+  },
+  {
+    "year": 2025,
+    "country": "Congo - Kinshasa",
+    "continent": "Africa",
+    "total_users": 9,
+    "new_users": 9,
+    "sessions": 7,
+    "views_per_session": 10.5714285714285
+  },
+  {
+    "year": 2025,
+    "country": "French Polynesia",
+    "continent": "Oceania",
+    "total_users": 9,
+    "new_users": 8,
+    "sessions": 29,
+    "views_per_session": 2.03448275862068
+  },
+  {
+    "year": 2025,
+    "country": "Jamaica",
+    "continent": "North America",
+    "total_users": 9,
+    "new_users": 7,
+    "sessions": 12,
+    "views_per_session": 3.0
+  },
+  {
+    "year": 2025,
+    "country": "Mayotte",
+    "continent": "Africa",
+    "total_users": 9,
+    "new_users": 9,
+    "sessions": 18,
+    "views_per_session": 3.66666666666666
+  },
+  {
+    "year": 2025,
+    "country": "Zimbabwe",
+    "continent": "Africa",
+    "total_users": 9,
+    "new_users": 8,
+    "sessions": 12,
+    "views_per_session": 3.08333333333333
+  },
+  {
+    "year": 2025,
+    "country": "British Virgin Islands",
+    "continent": "North America",
+    "total_users": 8,
+    "new_users": 3,
+    "sessions": 12,
+    "views_per_session": 2.0
+  },
+  {
+    "year": 2025,
+    "country": "Isle of Man",
+    "continent": "Europe",
+    "total_users": 8,
+    "new_users": 6,
+    "sessions": 31,
+    "views_per_session": 1.6774193548387
+  },
+  {
+    "year": 2025,
+    "country": "Maldives",
+    "continent": "Asia",
+    "total_users": 8,
+    "new_users": 5,
+    "sessions": 29,
+    "views_per_session": 1.96551724137931
+  },
+  {
+    "year": 2025,
+    "country": "Aruba",
+    "continent": "North America",
+    "total_users": 7,
+    "new_users": 4,
+    "sessions": 10,
+    "views_per_session": 1.7
+  },
+  {
+    "year": 2025,
+    "country": "Eswatini",
+    "continent": "Africa",
+    "total_users": 7,
+    "new_users": 7,
+    "sessions": 12,
+    "views_per_session": 2.25
+  },
+  {
+    "year": 2025,
+    "country": "Angola",
+    "continent": "Africa",
+    "total_users": 6,
+    "new_users": 4,
+    "sessions": 5,
+    "views_per_session": 8.8
+  },
+  {
+    "year": 2025,
+    "country": "Bahamas",
+    "continent": "North America",
+    "total_users": 6,
+    "new_users": 4,
+    "sessions": 6,
+    "views_per_session": 3.33333333333333
+  },
+  {
+    "year": 2025,
+    "country": "Cameroon",
+    "continent": "Africa",
+    "total_users": 6,
+    "new_users": 6,
+    "sessions": 7,
+    "views_per_session": 10.8571428571428
+  },
+  {
+    "year": 2025,
+    "country": "C\u00f4te d\u2019Ivoire",
+    "continent": "Africa",
+    "total_users": 6,
+    "new_users": 5,
+    "sessions": 20,
+    "views_per_session": 6.45
+  },
+  {
+    "year": 2025,
+    "country": "Madagascar",
+    "continent": "Africa",
+    "total_users": 6,
+    "new_users": 6,
+    "sessions": 5,
+    "views_per_session": 14.4
+  },
+  {
+    "year": 2025,
+    "country": "Senegal",
+    "continent": "Africa",
+    "total_users": 6,
+    "new_users": 4,
+    "sessions": 18,
+    "views_per_session": 3.83333333333333
+  },
+  {
+    "year": 2025,
+    "country": "Somalia",
+    "continent": "Africa",
+    "total_users": 6,
+    "new_users": 5,
+    "sessions": 6,
+    "views_per_session": 7.33333333333333
+  },
+  {
+    "year": 2025,
+    "country": "Zambia",
+    "continent": "Africa",
+    "total_users": 5,
+    "new_users": 5,
+    "sessions": 6,
+    "views_per_session": 2.83333333333333
+  },
+  {
+    "year": 2025,
+    "country": "Barbados",
+    "continent": "North America",
+    "total_users": 4,
+    "new_users": 4,
+    "sessions": 4,
+    "views_per_session": 2.25
+  },
+  {
+    "year": 2025,
+    "country": "Burundi",
+    "continent": "Africa",
+    "total_users": 4,
+    "new_users": 4,
+    "sessions": 5,
+    "views_per_session": 4.2
+  },
+  {
+    "year": 2025,
+    "country": "Caribbean Netherlands",
+    "continent": "North America",
+    "total_users": 4,
+    "new_users": 4,
+    "sessions": 6,
+    "views_per_session": 2.5
+  },
+  {
+    "year": 2025,
+    "country": "Chad",
+    "continent": "Africa",
+    "total_users": 4,
+    "new_users": 4,
+    "sessions": 3,
+    "views_per_session": 13.6666666666666
+  },
+  {
+    "year": 2025,
+    "country": "Fiji",
+    "continent": "Oceania",
+    "total_users": 4,
+    "new_users": 4,
+    "sessions": 5,
+    "views_per_session": 2.2
+  },
+  {
+    "year": 2025,
+    "country": "Uganda",
+    "continent": "Africa",
+    "total_users": 4,
+    "new_users": 3,
+    "sessions": 4,
+    "views_per_session": 6.25
+  },
+  {
+    "year": 2025,
+    "country": "Brunei",
+    "continent": "Asia",
+    "total_users": 3,
+    "new_users": 3,
+    "sessions": 5,
+    "views_per_session": 2.4
+  },
+  {
+    "year": 2025,
+    "country": "Burkina Faso",
+    "continent": "Africa",
+    "total_users": 3,
+    "new_users": 3,
+    "sessions": 4,
+    "views_per_session": 10.25
+  },
+  {
+    "year": 2025,
+    "country": "Gambia",
+    "continent": "Africa",
+    "total_users": 3,
+    "new_users": 3,
+    "sessions": 4,
+    "views_per_session": 2.25
+  },
+  {
+    "year": 2025,
+    "country": "Guinea-Bissau",
+    "continent": "Africa",
+    "total_users": 3,
+    "new_users": 3,
+    "sessions": 10,
+    "views_per_session": 1.8
+  },
+  {
+    "year": 2025,
+    "country": "Guyana",
+    "continent": "South America",
+    "total_users": 3,
+    "new_users": 3,
+    "sessions": 3,
+    "views_per_session": 3.0
+  },
+  {
+    "year": 2025,
+    "country": "Laos",
+    "continent": "Asia",
+    "total_users": 3,
+    "new_users": 2,
+    "sessions": 3,
+    "views_per_session": 2.33333333333333
+  },
+  {
+    "year": 2025,
+    "country": "Malawi",
+    "continent": "Africa",
+    "total_users": 3,
+    "new_users": 3,
+    "sessions": 4,
+    "views_per_session": 3.25
+  },
+  {
+    "year": 2025,
+    "country": "Suriname",
+    "continent": "South America",
+    "total_users": 3,
+    "new_users": 3,
+    "sessions": 3,
+    "views_per_session": 2.33333333333333
+  },
+  {
+    "year": 2025,
+    "country": "Turkmenistan",
+    "continent": "Asia",
+    "total_users": 3,
+    "new_users": 2,
+    "sessions": 5,
+    "views_per_session": 2.8
+  },
+  {
+    "year": 2025,
+    "country": "Bermuda",
+    "continent": "North America",
+    "total_users": 2,
+    "new_users": 2,
+    "sessions": 3,
+    "views_per_session": 2.33333333333333
+  },
+  {
+    "year": 2025,
+    "country": "Botswana",
+    "continent": "Africa",
+    "total_users": 2,
+    "new_users": 2,
+    "sessions": 2,
+    "views_per_session": 3.0
+  },
+  {
+    "year": 2025,
+    "country": "Djibouti",
+    "continent": "Africa",
+    "total_users": 2,
+    "new_users": 2,
+    "sessions": 5,
+    "views_per_session": 2.2
+  },
+  {
+    "year": 2025,
+    "country": "Haiti",
+    "continent": "North America",
+    "total_users": 2,
+    "new_users": 2,
+    "sessions": 3,
+    "views_per_session": 3.0
+  },
+  {
+    "year": 2025,
+    "country": "Mali",
+    "continent": "Africa",
+    "total_users": 2,
+    "new_users": 2,
+    "sessions": 2,
+    "views_per_session": 2.5
+  },
+  {
+    "year": 2025,
+    "country": "Monaco",
+    "continent": "Europe",
+    "total_users": 2,
+    "new_users": 1,
+    "sessions": 12,
+    "views_per_session": 1.66666666666666
+  },
+  {
+    "year": 2025,
+    "country": "New Caledonia",
+    "continent": "Oceania",
+    "total_users": 2,
+    "new_users": 2,
+    "sessions": 1,
+    "views_per_session": 33.0
+  },
+  {
+    "year": 2025,
+    "country": "Niger",
+    "continent": "Africa",
+    "total_users": 2,
+    "new_users": 2,
+    "sessions": 1,
+    "views_per_session": 33.0
+  },
+  {
+    "year": 2025,
+    "country": "Papua New Guinea",
+    "continent": "Oceania",
+    "total_users": 2,
+    "new_users": 2,
+    "sessions": 2,
+    "views_per_session": 1.0
+  },
+  {
+    "year": 2025,
+    "country": "Rwanda",
+    "continent": "Africa",
+    "total_users": 2,
+    "new_users": 2,
+    "sessions": 5,
+    "views_per_session": 1.6
+  },
+  {
+    "year": 2025,
+    "country": "Seychelles",
+    "continent": "Africa",
+    "total_users": 2,
+    "new_users": 1,
+    "sessions": 2,
+    "views_per_session": 2.0
+  },
+  {
+    "year": 2025,
+    "country": "U.S. Virgin Islands",
+    "continent": "North America",
+    "total_users": 2,
+    "new_users": 1,
+    "sessions": 3,
+    "views_per_session": 1.33333333333333
+  },
+  {
+    "year": 2025,
+    "country": "Antigua & Barbuda",
+    "continent": "North America",
+    "total_users": 1,
+    "new_users": 0,
+    "sessions": 4,
+    "views_per_session": 2.5
+  },
+  {
+    "year": 2025,
+    "country": "Belize",
+    "continent": "North America",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 2.0
+  },
+  {
+    "year": 2025,
+    "country": "Benin",
+    "continent": "Africa",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 3.0
+  },
+  {
+    "year": 2025,
+    "country": "Cape Verde",
+    "continent": "Africa",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 2,
+    "views_per_session": 6.5
+  },
+  {
+    "year": 2025,
+    "country": "Comoros",
+    "continent": "Africa",
+    "total_users": 1,
+    "new_users": 0,
+    "sessions": 1,
+    "views_per_session": 3.0
+  },
+  {
+    "year": 2025,
+    "country": "Cura\u00e7ao",
+    "continent": "North America",
+    "total_users": 1,
+    "new_users": 0,
+    "sessions": 1,
+    "views_per_session": 1.0
+  },
+  {
+    "year": 2025,
+    "country": "Dominica",
+    "continent": "North America",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 3,
+    "views_per_session": 1.66666666666666
+  },
+  {
+    "year": 2025,
+    "country": "Faroe Islands",
+    "continent": "Europe",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 3.0
+  },
+  {
+    "year": 2025,
+    "country": "Gabon",
+    "continent": "Africa",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 3,
+    "views_per_session": 1.66666666666666
+  },
+  {
+    "year": 2025,
+    "country": "Grenada",
+    "continent": "North America",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 4,
+    "views_per_session": 2.5
+  },
+  {
+    "year": 2025,
+    "country": "Guinea",
+    "continent": "Africa",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 5.0
+  },
+  {
+    "year": 2025,
+    "country": "Liberia",
+    "continent": "Africa",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 4.0
+  },
+  {
+    "year": 2025,
+    "country": "Liechtenstein",
+    "continent": "Europe",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 3.0
+  },
+  {
+    "year": 2025,
+    "country": "Mauritania",
+    "continent": "Africa",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 3.0
+  },
+  {
+    "year": 2025,
+    "country": "Mozambique",
+    "continent": "Africa",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 1,
+    "views_per_session": 3.0
+  },
+  {
+    "year": 2025,
+    "country": "Palau",
+    "continent": "Oceania",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 6,
+    "views_per_session": 2.0
+  },
+  {
+    "year": 2025,
+    "country": "St. Lucia",
+    "continent": "North America",
+    "total_users": 1,
+    "new_users": 0,
+    "sessions": 3,
+    "views_per_session": 1.33333333333333
+  },
+  {
+    "year": 2025,
+    "country": "Togo",
+    "continent": "Africa",
+    "total_users": 1,
+    "new_users": 1,
+    "sessions": 0,
+    "views_per_session": 0.0
+  },
+  {
+    "year": 2025,
+    "country": "Western Sahara",
+    "continent": "Africa",
+    "total_users": 1,
+    "new_users": 0,
+    "sessions": 1,
+    "views_per_session": 2.0
+  }
+]

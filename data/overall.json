@@ -1,0 +1,181 @@
+{
+  "monthly": [
+    {
+      "year": 2024,
+      "month": 1,
+      "users": 12421,
+      "sessions": 39293,
+      "avg_session_duration": 532.906629589138
+    },
+    {
+      "year": 2024,
+      "month": 2,
+      "users": 12549,
+      "sessions": 40696,
+      "avg_session_duration": 540.537063615343
+    },
+    {
+      "year": 2024,
+      "month": 3,
+      "users": 13551,
+      "sessions": 42695,
+      "avg_session_duration": 533.835591913338
+    },
+    {
+      "year": 2024,
+      "month": 4,
+      "users": 14882,
+      "sessions": 46602,
+      "avg_session_duration": 543.148378281061
+    },
+    {
+      "year": 2024,
+      "month": 5,
+      "users": 15559,
+      "sessions": 47268,
+      "avg_session_duration": 552.787376879326
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "users": 14731,
+      "sessions": 42383,
+      "avg_session_duration": 560.324023667814
+    },
+    {
+      "year": 2024,
+      "month": 7,
+      "users": 15346,
+      "sessions": 46170,
+      "avg_session_duration": 521.669930453584
+    },
+    {
+      "year": 2024,
+      "month": 8,
+      "users": 14499,
+      "sessions": 41824,
+      "avg_session_duration": 528.105316866822
+    },
+    {
+      "year": 2024,
+      "month": 9,
+      "users": 19447,
+      "sessions": 55141,
+      "avg_session_duration": 525.93770871455
+    },
+    {
+      "year": 2024,
+      "month": 10,
+      "users": 20556,
+      "sessions": 62606,
+      "avg_session_duration": 584.943342646743
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "users": 20497,
+      "sessions": 61352,
+      "avg_session_duration": 564.853050428429
+    },
+    {
+      "year": 2024,
+      "month": 12,
+      "users": 17739,
+      "sessions": 49613,
+      "avg_session_duration": 532.198926586882
+    },
+    {
+      "year": 2025,
+      "month": 1,
+      "users": 20843,
+      "sessions": 63034,
+      "avg_session_duration": 559.163230820652
+    },
+    {
+      "year": 2025,
+      "month": 2,
+      "users": 20396,
+      "sessions": 60122,
+      "avg_session_duration": 529.075477527144
+    },
+    {
+      "year": 2025,
+      "month": 3,
+      "users": 20982,
+      "sessions": 63429,
+      "avg_session_duration": 535.411333558845
+    },
+    {
+      "year": 2025,
+      "month": 4,
+      "users": 20876,
+      "sessions": 63285,
+      "avg_session_duration": 539.16289590922
+    },
+    {
+      "year": 2025,
+      "month": 5,
+      "users": 22961,
+      "sessions": 64363,
+      "avg_session_duration": 557.540897560337
+    },
+    {
+      "year": 2025,
+      "month": 6,
+      "users": 22657,
+      "sessions": 66716,
+      "avg_session_duration": 525.856961178502
+    },
+    {
+      "year": 2025,
+      "month": 7,
+      "users": 23759,
+      "sessions": 69365,
+      "avg_session_duration": 504.000785058905
+    },
+    {
+      "year": 2025,
+      "month": 8,
+      "users": 20645,
+      "sessions": 56184,
+      "avg_session_duration": 502.682470739036
+    },
+    {
+      "year": 2025,
+      "month": 9,
+      "users": 33468,
+      "sessions": 94731,
+      "avg_session_duration": 654.02865428013
+    },
+    {
+      "year": 2025,
+      "month": 10,
+      "users": 27073,
+      "sessions": 92710,
+      "avg_session_duration": 880.591272599978
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "users": 27418,
+      "sessions": 93642,
+      "avg_session_duration": 959.074171522543
+    },
+    {
+      "year": 2025,
+      "month": 12,
+      "users": 23073,
+      "sessions": 88635,
+      "avg_session_duration": 889.153518634354
+    }
+  ],
+  "yearly": [
+    {
+      "year": 2024,
+      "month": 0,
+      "users": 20556,
+      "sessions": 62606,
+      "avg_session_duration": 584.943342646743
+    }
+  ]
+}

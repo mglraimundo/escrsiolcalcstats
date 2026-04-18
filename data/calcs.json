@@ -1,0 +1,3053 @@
+[
+  {
+    "year": 2024,
+    "month": 1,
+    "calculator": "Barrett",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 38829
+  },
+  {
+    "year": 2024,
+    "month": 1,
+    "calculator": "Barrett",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 15378
+  },
+  {
+    "year": 2024,
+    "month": 1,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 21164
+  },
+  {
+    "year": 2024,
+    "month": 1,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 35196
+  },
+  {
+    "year": 2024,
+    "month": 1,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 16501
+  },
+  {
+    "year": 2024,
+    "month": 1,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 31262
+  },
+  {
+    "year": 2024,
+    "month": 1,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 34668
+  },
+  {
+    "year": 2024,
+    "month": 1,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 14955
+  },
+  {
+    "year": 2024,
+    "month": 1,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 33274
+  },
+  {
+    "year": 2024,
+    "month": 1,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 15094
+  },
+  {
+    "year": 2024,
+    "month": 1,
+    "calculator": "Pearl DGS",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 34438
+  },
+  {
+    "year": 2024,
+    "month": 2,
+    "calculator": "Barrett",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 31648
+  },
+  {
+    "year": 2024,
+    "month": 2,
+    "calculator": "Barrett",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 11980
+  },
+  {
+    "year": 2024,
+    "month": 2,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 21361
+  },
+  {
+    "year": 2024,
+    "month": 2,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 34762
+  },
+  {
+    "year": 2024,
+    "month": 2,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 17285
+  },
+  {
+    "year": 2024,
+    "month": 2,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 31722
+  },
+  {
+    "year": 2024,
+    "month": 2,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 34456
+  },
+  {
+    "year": 2024,
+    "month": 2,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 15355
+  },
+  {
+    "year": 2024,
+    "month": 2,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 38145
+  },
+  {
+    "year": 2024,
+    "month": 2,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 18687
+  },
+  {
+    "year": 2024,
+    "month": 2,
+    "calculator": "Pearl DGS",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 34112
+  },
+  {
+    "year": 2024,
+    "month": 3,
+    "calculator": "Barrett",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 32038
+  },
+  {
+    "year": 2024,
+    "month": 3,
+    "calculator": "Barrett",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 12665
+  },
+  {
+    "year": 2024,
+    "month": 3,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 20260
+  },
+  {
+    "year": 2024,
+    "month": 3,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 35517
+  },
+  {
+    "year": 2024,
+    "month": 3,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 18418
+  },
+  {
+    "year": 2024,
+    "month": 3,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 32270
+  },
+  {
+    "year": 2024,
+    "month": 3,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 34766
+  },
+  {
+    "year": 2024,
+    "month": 3,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 16292
+  },
+  {
+    "year": 2024,
+    "month": 3,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 38901
+  },
+  {
+    "year": 2024,
+    "month": 3,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 19676
+  },
+  {
+    "year": 2024,
+    "month": 3,
+    "calculator": "Pearl DGS",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 34572
+  },
+  {
+    "year": 2024,
+    "month": 4,
+    "calculator": "Barrett",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 34496
+  },
+  {
+    "year": 2024,
+    "month": 4,
+    "calculator": "Barrett",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 13347
+  },
+  {
+    "year": 2024,
+    "month": 4,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 23038
+  },
+  {
+    "year": 2024,
+    "month": 4,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 39667
+  },
+  {
+    "year": 2024,
+    "month": 4,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 20726
+  },
+  {
+    "year": 2024,
+    "month": 4,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 35817
+  },
+  {
+    "year": 2024,
+    "month": 4,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 38775
+  },
+  {
+    "year": 2024,
+    "month": 4,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 17862
+  },
+  {
+    "year": 2024,
+    "month": 4,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 43370
+  },
+  {
+    "year": 2024,
+    "month": 4,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 22055
+  },
+  {
+    "year": 2024,
+    "month": 4,
+    "calculator": "Pearl DGS",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 38952
+  },
+  {
+    "year": 2024,
+    "month": 5,
+    "calculator": "Barrett",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 32871
+  },
+  {
+    "year": 2024,
+    "month": 5,
+    "calculator": "Barrett",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 12848
+  },
+  {
+    "year": 2024,
+    "month": 5,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 22916
+  },
+  {
+    "year": 2024,
+    "month": 5,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 39122
+  },
+  {
+    "year": 2024,
+    "month": 5,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 20761
+  },
+  {
+    "year": 2024,
+    "month": 5,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 35078
+  },
+  {
+    "year": 2024,
+    "month": 5,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 36621
+  },
+  {
+    "year": 2024,
+    "month": 5,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 17530
+  },
+  {
+    "year": 2024,
+    "month": 5,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 42714
+  },
+  {
+    "year": 2024,
+    "month": 5,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 22626
+  },
+  {
+    "year": 2024,
+    "month": 5,
+    "calculator": "Pearl DGS",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 38171
+  },
+  {
+    "year": 2024,
+    "month": 6,
+    "calculator": "Barrett",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 32333
+  },
+  {
+    "year": 2024,
+    "month": 6,
+    "calculator": "Barrett",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 12329
+  },
+  {
+    "year": 2024,
+    "month": 6,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 20856
+  },
+  {
+    "year": 2024,
+    "month": 6,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 35820
+  },
+  {
+    "year": 2024,
+    "month": 6,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 18226
+  },
+  {
+    "year": 2024,
+    "month": 6,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 33005
+  },
+  {
+    "year": 2024,
+    "month": 6,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 34049
+  },
+  {
+    "year": 2024,
+    "month": 6,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 15324
+  },
+  {
+    "year": 2024,
+    "month": 6,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 39462
+  },
+  {
+    "year": 2024,
+    "month": 6,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 19951
+  },
+  {
+    "year": 2024,
+    "month": 6,
+    "calculator": "Pearl DGS",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 35713
+  },
+  {
+    "year": 2024,
+    "month": 7,
+    "calculator": "Barrett",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 34282
+  },
+  {
+    "year": 2024,
+    "month": 7,
+    "calculator": "Barrett",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 13801
+  },
+  {
+    "year": 2024,
+    "month": 7,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 9501
+  },
+  {
+    "year": 2024,
+    "month": 7,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 36372
+  },
+  {
+    "year": 2024,
+    "month": 7,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 20763
+  },
+  {
+    "year": 2024,
+    "month": 7,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 34350
+  },
+  {
+    "year": 2024,
+    "month": 7,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 34894
+  },
+  {
+    "year": 2024,
+    "month": 7,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 17143
+  },
+  {
+    "year": 2024,
+    "month": 7,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 41317
+  },
+  {
+    "year": 2024,
+    "month": 7,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 22679
+  },
+  {
+    "year": 2024,
+    "month": 7,
+    "calculator": "Pearl DGS",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 35321
+  },
+  {
+    "year": 2024,
+    "month": 8,
+    "calculator": "Barrett",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 30338
+  },
+  {
+    "year": 2024,
+    "month": 8,
+    "calculator": "Barrett",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 13279
+  },
+  {
+    "year": 2024,
+    "month": 8,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 8276
+  },
+  {
+    "year": 2024,
+    "month": 8,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 31632
+  },
+  {
+    "year": 2024,
+    "month": 8,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 18764
+  },
+  {
+    "year": 2024,
+    "month": 8,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 29235
+  },
+  {
+    "year": 2024,
+    "month": 8,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 30325
+  },
+  {
+    "year": 2024,
+    "month": 8,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 15283
+  },
+  {
+    "year": 2024,
+    "month": 8,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 35923
+  },
+  {
+    "year": 2024,
+    "month": 8,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 20334
+  },
+  {
+    "year": 2024,
+    "month": 8,
+    "calculator": "Pearl DGS",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 30805
+  },
+  {
+    "year": 2024,
+    "month": 9,
+    "calculator": "Barrett",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 31712
+  },
+  {
+    "year": 2024,
+    "month": 9,
+    "calculator": "Barrett",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 12927
+  },
+  {
+    "year": 2024,
+    "month": 9,
+    "calculator": "Barrett Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 518
+  },
+  {
+    "year": 2024,
+    "month": 9,
+    "calculator": "Barrett Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 1607
+  },
+  {
+    "year": 2024,
+    "month": 9,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 25411
+  },
+  {
+    "year": 2024,
+    "month": 9,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 41192
+  },
+  {
+    "year": 2024,
+    "month": 9,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 26221
+  },
+  {
+    "year": 2024,
+    "month": 9,
+    "calculator": "EVO Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 2334
+  },
+  {
+    "year": 2024,
+    "month": 9,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 38889
+  },
+  {
+    "year": 2024,
+    "month": 9,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 40011
+  },
+  {
+    "year": 2024,
+    "month": 9,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 22102
+  },
+  {
+    "year": 2024,
+    "month": 9,
+    "calculator": "Hoffer QST Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 2146
+  },
+  {
+    "year": 2024,
+    "month": 9,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 46780
+  },
+  {
+    "year": 2024,
+    "month": 9,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 28664
+  },
+  {
+    "year": 2024,
+    "month": 9,
+    "calculator": "Kane Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 813
+  },
+  {
+    "year": 2024,
+    "month": 9,
+    "calculator": "Pearl DGS",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 40221
+  },
+  {
+    "year": 2024,
+    "month": 10,
+    "calculator": "Barrett",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 37804
+  },
+  {
+    "year": 2024,
+    "month": 10,
+    "calculator": "Barrett",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 18206
+  },
+  {
+    "year": 2024,
+    "month": 10,
+    "calculator": "Barrett Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 830
+  },
+  {
+    "year": 2024,
+    "month": 10,
+    "calculator": "Barrett Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 2699
+  },
+  {
+    "year": 2024,
+    "month": 10,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 31191
+  },
+  {
+    "year": 2024,
+    "month": 10,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 52765
+  },
+  {
+    "year": 2024,
+    "month": 10,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 39543
+  },
+  {
+    "year": 2024,
+    "month": 10,
+    "calculator": "EVO Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 4329
+  },
+  {
+    "year": 2024,
+    "month": 10,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 45809
+  },
+  {
+    "year": 2024,
+    "month": 10,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 50658
+  },
+  {
+    "year": 2024,
+    "month": 10,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 35584
+  },
+  {
+    "year": 2024,
+    "month": 10,
+    "calculator": "Hoffer QST Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 4089
+  },
+  {
+    "year": 2024,
+    "month": 10,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 60144
+  },
+  {
+    "year": 2024,
+    "month": 10,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 41552
+  },
+  {
+    "year": 2024,
+    "month": 10,
+    "calculator": "Kane Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 1402
+  },
+  {
+    "year": 2024,
+    "month": 10,
+    "calculator": "Pearl DGS",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 50818
+  },
+  {
+    "year": 2024,
+    "month": 11,
+    "calculator": "Barrett",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 39965
+  },
+  {
+    "year": 2024,
+    "month": 11,
+    "calculator": "Barrett",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 16254
+  },
+  {
+    "year": 2024,
+    "month": 11,
+    "calculator": "Barrett Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 694
+  },
+  {
+    "year": 2024,
+    "month": 11,
+    "calculator": "Barrett Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 3106
+  },
+  {
+    "year": 2024,
+    "month": 11,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 32019
+  },
+  {
+    "year": 2024,
+    "month": 11,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 56147
+  },
+  {
+    "year": 2024,
+    "month": 11,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 32332
+  },
+  {
+    "year": 2024,
+    "month": 11,
+    "calculator": "EVO Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 5139
+  },
+  {
+    "year": 2024,
+    "month": 11,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 45237
+  },
+  {
+    "year": 2024,
+    "month": 11,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 52686
+  },
+  {
+    "year": 2024,
+    "month": 11,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 28154
+  },
+  {
+    "year": 2024,
+    "month": 11,
+    "calculator": "Hoffer QST Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 4555
+  },
+  {
+    "year": 2024,
+    "month": 11,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 63086
+  },
+  {
+    "year": 2024,
+    "month": 11,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 34074
+  },
+  {
+    "year": 2024,
+    "month": 11,
+    "calculator": "Kane Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 1200
+  },
+  {
+    "year": 2024,
+    "month": 11,
+    "calculator": "Pearl DGS",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 52978
+  },
+  {
+    "year": 2024,
+    "month": 12,
+    "calculator": "Barrett",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 31136
+  },
+  {
+    "year": 2024,
+    "month": 12,
+    "calculator": "Barrett",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 12567
+  },
+  {
+    "year": 2024,
+    "month": 12,
+    "calculator": "Barrett Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 670
+  },
+  {
+    "year": 2024,
+    "month": 12,
+    "calculator": "Barrett Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 2433
+  },
+  {
+    "year": 2024,
+    "month": 12,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 23494
+  },
+  {
+    "year": 2024,
+    "month": 12,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 39136
+  },
+  {
+    "year": 2024,
+    "month": 12,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 22493
+  },
+  {
+    "year": 2024,
+    "month": 12,
+    "calculator": "EVO Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 3494
+  },
+  {
+    "year": 2024,
+    "month": 12,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 33639
+  },
+  {
+    "year": 2024,
+    "month": 12,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 36853
+  },
+  {
+    "year": 2024,
+    "month": 12,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 19559
+  },
+  {
+    "year": 2024,
+    "month": 12,
+    "calculator": "Hoffer QST Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 3199
+  },
+  {
+    "year": 2024,
+    "month": 12,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 43522
+  },
+  {
+    "year": 2024,
+    "month": 12,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 23613
+  },
+  {
+    "year": 2024,
+    "month": 12,
+    "calculator": "Kane Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 967
+  },
+  {
+    "year": 2024,
+    "month": 12,
+    "calculator": "Pearl DGS",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 37279
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "calculator": "Barrett",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 22085
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "calculator": "Barrett",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 9208
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "calculator": "Barrett Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 349
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "calculator": "Barrett Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 1764
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 26819
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 44451
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 27015
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "calculator": "EVO Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 4028
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 40885
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 42800
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 23637
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "calculator": "Hoffer QST Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 3705
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 49909
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 27994
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "calculator": "Kane Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 919
+  },
+  {
+    "year": 2025,
+    "month": 1,
+    "calculator": "Pearl DGS",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 43191
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 26519
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 42393
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 21791
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "calculator": "EVO Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 3739
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 38881
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 40750
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 19150
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "calculator": "Hoffer QST Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 3372
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 46547
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 22957
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "calculator": "Kane Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 880
+  },
+  {
+    "year": 2025,
+    "month": 2,
+    "calculator": "Pearl DGS",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 40643
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "calculator": "Barrett",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 27223
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "calculator": "Barrett",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 14358
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "calculator": "Barrett Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 520
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "calculator": "Barrett Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 2027
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 27480
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 43714
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 24555
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "calculator": "EVO Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 3503
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 39557
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 41374
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 21772
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "calculator": "Hoffer QST Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 3121
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 47607
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 25736
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "calculator": "Kane Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 1041
+  },
+  {
+    "year": 2025,
+    "month": 3,
+    "calculator": "Pearl DGS",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 41666
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "calculator": "Barrett",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 48086
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "calculator": "Barrett",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 23734
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "calculator": "Barrett Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 977
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "calculator": "Barrett Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 4013
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 27601
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 43837
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 24598
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "calculator": "EVO Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 3751
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 39615
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 41889
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 21892
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "calculator": "Hoffer QST Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 3481
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 47732
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 25826
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "calculator": "Kane Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 1038
+  },
+  {
+    "year": 2025,
+    "month": 4,
+    "calculator": "Pearl DGS",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 42214
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "calculator": "Barrett",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 50796
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "calculator": "Barrett",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 24261
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "calculator": "Barrett Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 947
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "calculator": "Barrett Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 4169
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 34514
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 45643
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 24677
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "calculator": "EVO Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 3895
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 41441
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 44067
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 22213
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "calculator": "Hoffer QST Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 3562
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 49728
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 26222
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "calculator": "Kane Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 1009
+  },
+  {
+    "year": 2025,
+    "month": 5,
+    "calculator": "Pearl DGS",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 44555
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "calculator": "Barrett",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 32634
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "calculator": "Barrett",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 16224
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "calculator": "Barrett Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 642
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "calculator": "Barrett Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 2753
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 36679
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 46751
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 25848
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "calculator": "EVO Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 4107
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 41647
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 44840
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 23073
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "calculator": "Hoffer QST Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 3697
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 50938
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 27389
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "calculator": "Kane Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 1102
+  },
+  {
+    "year": 2025,
+    "month": 6,
+    "calculator": "Pearl DGS",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 45205
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "calculator": "Barrett",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 999
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "calculator": "Barrett",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 96
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "calculator": "Barrett Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 6
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "calculator": "Barrett Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 16
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 67413
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 72652
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 23739
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "calculator": "EVO Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 4278
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 41958
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 74396
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 21284
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "calculator": "Hoffer QST Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 3838
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 80331
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 25164
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "calculator": "Kane Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 1189
+  },
+  {
+    "year": 2025,
+    "month": 7,
+    "calculator": "Pearl DGS",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 74604
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "calculator": "Barrett",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 224
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "calculator": "Barrett",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 85
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "calculator": "Barrett Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 7
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "calculator": "Barrett Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 6
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 31404
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 37868
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 19927
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "calculator": "EVO Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 3031
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 34395
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 36166
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 17729
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "calculator": "Hoffer QST Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 2740
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 41588
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 21159
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "calculator": "Kane Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 904
+  },
+  {
+    "year": 2025,
+    "month": 8,
+    "calculator": "Pearl DGS",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 36979
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "calculator": "Barrett",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 331
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "calculator": "Barrett",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 128
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "calculator": "Barrett Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 6
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "calculator": "Barrett Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 35
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 41152
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 49393
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 26908
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "calculator": "EVO Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 4595
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 44091
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 47581
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 24147
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "calculator": "Hoffer QST Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 4218
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 51694
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 27310
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "calculator": "Kane Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 1150
+  },
+  {
+    "year": 2025,
+    "month": 9,
+    "calculator": "Pearl DGS",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 48251
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "calculator": "Barrett",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 397
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "calculator": "Barrett",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 187
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "calculator": "Barrett Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 10
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "calculator": "Barrett Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 50
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 48873
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 56309
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 32050
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "calculator": "EVO Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 5215
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 50955
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 54326
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 28565
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "calculator": "Hoffer QST Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 4738
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 61107
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 33774
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "calculator": "Kane Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 1589
+  },
+  {
+    "year": 2025,
+    "month": 10,
+    "calculator": "Pearl DGS",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 55404
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "calculator": "Barrett",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 493
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "calculator": "Barrett",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 222
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "calculator": "Barrett Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 11
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "calculator": "Barrett Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 26
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 51489
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 58530
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 33067
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "calculator": "EVO Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 4920
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 52380
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 56778
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 29790
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "calculator": "Hoffer QST Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 4413
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 60022
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 32017
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "calculator": "Kane Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 1335
+  },
+  {
+    "year": 2025,
+    "month": 11,
+    "calculator": "Pearl DGS",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 27491
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "calculator": "Barrett",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 328
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "calculator": "Barrett",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 183
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "calculator": "Barrett Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 4
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "calculator": "Barrett Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 27
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "calculator": "Cooke K6",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 43391
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "calculator": "EVO",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 48885
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "calculator": "EVO",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 26972
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "calculator": "EVO Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 4246
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "calculator": "Hill RBF",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 44083
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "calculator": "Hoffer QST",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 47224
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "calculator": "Hoffer QST",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 24628
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "calculator": "Hoffer QST Post LASIK/PRK",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": true,
+    "calculations": 3880
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "calculator": "Kane",
+    "toric": false,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 51906
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "calculator": "Kane",
+    "toric": true,
+    "keratoconus": false,
+    "post_lasik": false,
+    "calculations": 26313
+  },
+  {
+    "year": 2025,
+    "month": 12,
+    "calculator": "Kane Keratoconus",
+    "toric": false,
+    "keratoconus": true,
+    "post_lasik": false,
+    "calculations": 1092
+  }
+]

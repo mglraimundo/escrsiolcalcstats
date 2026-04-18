@@ -1,0 +1,33 @@
+{
+  "source": "ga17042026.xlsx",
+  "years": [
+    2024,
+    2025
+  ],
+  "calculators": [
+    "Barrett",
+    "Barrett Keratoconus",
+    "Barrett Post LASIK/PRK",
+    "Cooke K6",
+    "EVO",
+    "EVO Post LASIK/PRK",
+    "Hill RBF",
+    "Hoffer QST",
+    "Hoffer QST Post LASIK/PRK",
+    "Kane",
+    "Kane Keratoconus",
+    "Pearl DGS"
+  ],
+  "continents": [
+    "Africa",
+    "Asia",
+    "Europe",
+    "North America",
+    "Oceania",
+    "South America",
+    "Unknown"
+  ],
+  "country_count": 205,
+  "overall_month_count": 24,
+  "calcs_row_count": 339
+}

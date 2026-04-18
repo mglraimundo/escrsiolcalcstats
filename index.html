@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ESCRS IOL Calculator — Usage Statistics</title>
+<meta name="description" content="Interactive dashboard of ESCRS IOL Calculator usage statistics." />
+<link rel="stylesheet" href="assets/css/style.css" />
+<script type="importmap">
+{
+  "imports": {
+    "chart.js/auto": "https://cdn.jsdelivr.net/npm/chart.js@4.4.7/auto/+esm",
+    "d3": "https://cdn.jsdelivr.net/npm/d3@7/+esm",
+    "topojson-client": "https://cdn.jsdelivr.net/npm/topojson-client@3/+esm"
+  }
+}
+</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <h1>ESCRS IOL Calculator - Summary Usage Statistics</h1>
+  </div>
+</header>
+
+<nav class="tabs wrap" role="tablist">
+  <button class="tab active" data-tab="overview" role="tab" aria-selected="true">Overview</button>
+  <button class="tab" data-tab="countries" role="tab" aria-selected="false">Countries</button>
+  <button class="tab" data-tab="calcs" role="tab" aria-selected="false">Calculators</button>
+</nav>
+
+<main class="wrap">
+
+  <section id="tab-overview" class="tab-panel active">
+    <div class="toolbar">
+      <label>Year
+        <select id="overview-year"></select>
+      </label>
+      <div class="spacer"></div>
+      <button class="btn" id="overview-export-csv">Export CSV</button>
+      <button class="btn" id="overview-export-users-png">Users chart PNG</button>
+    </div>
+
+    <div class="kpis">
+      <div class="kpi"><div class="kpi-label">Users</div><div class="kpi-value" id="kpi-users">—</div></div>
+      <div class="kpi"><div class="kpi-label">Sessions</div><div class="kpi-value" id="kpi-sessions">—</div></div>
+      <div class="kpi"><div class="kpi-label">Avg session duration</div><div class="kpi-value" id="kpi-duration">—</div></div>
+      <div class="kpi"><div class="kpi-label">Months covered</div><div class="kpi-value" id="kpi-months">—</div></div>
+    </div>
+
+    <div class="card">
+      <h2>Monthly users &amp; sessions</h2>
+      <div class="chart-wrap"><canvas id="overview-users-chart"></canvas></div>
+    </div>
+
+    <div class="card">
+      <h2>Monthly data</h2>
+      <div class="table-wrap">
+        <table id="overview-table" class="data-table">
+          <thead><tr>
+            <th data-sort="year">Year</th>
+            <th data-sort="month">Month</th>
+            <th data-sort="users">Users</th>
+            <th data-sort="sessions">Sessions</th>
+            <th data-sort="avg_session_duration">Avg duration (s)</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="tab-countries" class="tab-panel">
+    <div class="toolbar">
+      <label>Year
+        <select id="countries-year"></select>
+      </label>
+      <label>Metric
+        <select id="countries-metric">
+          <option value="total_users">Total users</option>
+          <option value="new_users">New users</option>
+          <option value="sessions">Sessions</option>
+          <option value="views_per_session">Views / session</option>
+        </select>
+      </label>
+      <label>Continent
+        <select id="countries-continent"><option value="">All</option></select>
+      </label>
+      <label>Search
+        <input type="search" id="countries-search" placeholder="Country…" />
+      </label>
+      <div class="spacer"></div>
+      <button class="btn" id="countries-export-csv">Export CSV</button>
+      <button class="btn" id="countries-export-map-png">Map PNG</button>
+      <button class="btn" id="countries-export-map-svg">Map SVG</button>
+      <button class="btn" id="countries-export-continent-png">Continent PNG</button>
+    </div>
+
+    <div class="grid-2">
+      <div class="card map-card">
+        <h2>World choropleth <span class="muted small" id="map-metric-label"></span></h2>
+        <div class="map-wrap" id="countries-map"></div>
+        <div class="legend" id="countries-legend"></div>
+        <p class="note" id="countries-map-note"></p>
+      </div>
+
+      <div class="card">
+        <h2>By continent</h2>
+        <div class="chart-wrap"><canvas id="countries-continent-chart"></canvas></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Country data</h2>
+      <div class="table-wrap">
+        <table id="countries-table" class="data-table">
+          <thead><tr>
+            <th data-sort="year">Year</th>
+            <th data-sort="country">Country</th>
+            <th data-sort="continent">Continent</th>
+            <th data-sort="total_users">Total users</th>
+            <th data-sort="new_users">New users</th>
+            <th data-sort="sessions">Sessions</th>
+            <th data-sort="views_per_session">Views / session</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="tab-calcs" class="tab-panel">
+    <div class="toolbar">
+      <label>Year
+        <select id="calcs-year"></select>
+      </label>
+      <label>Calculator
+        <select id="calcs-calc"><option value="">All</option></select>
+      </label>
+      <label>Variant
+        <select id="calcs-variant">
+          <option value="">All</option>
+          <option value="standard">Standard</option>
+          <option value="toric">Toric</option>
+          <option value="keratoconus">Keratoconus</option>
+          <option value="post_lasik">Post-LASIK/PRK</option>
+        </select>
+      </label>
+      <div class="spacer"></div>
+      <button class="btn" id="calcs-export-csv">Export CSV</button>
+      <button class="btn" id="calcs-export-stacked-png">Stacked chart PNG</button>
+      <button class="btn" id="calcs-export-totals-png">Totals chart PNG</button>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <h2>Calculations per month (stacked by calculator)</h2>
+        <div class="chart-wrap"><canvas id="calcs-stacked-chart"></canvas></div>
+      </div>
+      <div class="card">
+        <h2>Totals by calculator</h2>
+        <div class="chart-wrap"><canvas id="calcs-totals-chart"></canvas></div>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <h2>Variant distribution</h2>
+        <div class="chart-wrap"><canvas id="calcs-variant-chart"></canvas></div>
+        <div class="toolbar-mini">
+          <button class="btn" id="calcs-export-variant-png">Variant chart PNG</button>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Variant breakdown</h2>
+        <div class="table-wrap">
+          <table id="calcs-variant-table" class="data-table">
+            <thead><tr>
+              <th>Variant</th>
+              <th class="num">Calculations</th>
+              <th class="num">Share</th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <div class="toolbar-mini">
+          <button class="btn" id="calcs-export-variant-csv">Variant CSV</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Calculator data</h2>
+      <div class="table-wrap">
+        <table id="calcs-table" class="data-table">
+          <thead><tr>
+            <th data-sort="year">Year</th>
+            <th data-sort="month">Month</th>
+            <th data-sort="calculator">Calculator</th>
+            <th data-sort="toric">Toric</th>
+            <th data-sort="keratoconus">Keratoconus</th>
+            <th data-sort="post_lasik">Post-LASIK/PRK</th>
+            <th data-sort="calculations">Calculations</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="muted small">Static dashboard built from Google Analytics export. Source file: <code id="source-file">—</code>.</p>
+    <p class="muted small">Developed by Miguel Raimundo.</p>
+  </div>
+</footer>
+
+<script type="module" src="assets/js/app.js"></script>
+</body>
+</html>
