@@ -214,7 +214,7 @@ function populateControls(meta) {
   ySel.addEventListener('change', () => { state.year = ySel.value; render(); });
 
   const cSel = document.getElementById('calcs-calc');
-  cSel.innerHTML = '<option value="">All calculators</option>' + calculators.map(c => `<option value="${c}">${c}</option>`).join('');
+  cSel.innerHTML = '<option value="">All formulas</option>' + calculators.map(c => `<option value="${c}">${c}</option>`).join('');
   cSel.addEventListener('change', () => { state.calc = cSel.value; render(); });
 
   const vSel = document.getElementById('calcs-variant');
@@ -226,7 +226,7 @@ function wireExports() {
     downloadCsv(`escrs-calcs-${state.year}-${timestamp()}.csv`, sortedForTable(filtered()), [
       { key: 'year', label: 'Year' },
       { key: 'month', label: 'Month' },
-      { key: 'calculator', label: 'Calculator' },
+      { key: 'calculator', label: 'Formula' },
       { key: 'toric', label: 'Toric', format: v => v ? 1 : 0 },
       { key: 'keratoconus', label: 'Keratoconus', format: v => v ? 1 : 0 },
       { key: 'post_lasik', label: 'Post LASIK/PRK', format: v => v ? 1 : 0 },
