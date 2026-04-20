@@ -20,7 +20,7 @@
 <header class="site-header">
   <div class="wrap">
     <h1>ESCRS IOL Calculator</h1>
-    <p class="sub">Summary Usage Statistics (2024 &amp; 2025)</p>
+    <p class="sub">Usage Statistics (2024 &amp; 2025)</p>
   </div>
 </header>
 
@@ -28,6 +28,8 @@
   <button class="tab active" data-tab="overview" role="tab" aria-selected="true">Overview</button>
   <button class="tab" data-tab="countries" role="tab" aria-selected="false">Countries</button>
   <button class="tab" data-tab="calcs" role="tab" aria-selected="false">Formulas</button>
+  <button class="tab" data-tab="biometry" role="tab" aria-selected="false">Biometry</button>
+  <button class="tab" data-tab="iols" role="tab" aria-selected="false">IOLs</button>
 </nav>
 
 <main class="wrap">
@@ -209,11 +211,184 @@
     </div>
   </section>
 
+  <section id="tab-biometry" class="tab-panel">
+    <div class="toolbar">
+      <label>Year
+        <select id="bio-year"></select>
+      </label>
+      <label>Type
+        <select id="bio-type">
+          <option value="all">All types</option>
+          <option value="standard">Standard</option>
+          <option value="toric">Toric</option>
+          <option value="keratoconus">Keratoconus</option>
+          <option value="post_lasik">Post-LASIK/PRK</option>
+        </select>
+      </label>
+      <div class="spacer"></div>
+      <button class="btn" id="bio-export-csv">Export CSV</button>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <h2>Age Distribution</h2>
+        <div class="table-wrap">
+          <table id="bio-age-table" class="data-table">
+            <thead><tr>
+              <th></th>
+              <th class="num">Value</th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Gender Distribution</h2>
+        <div class="chart-wrap chart-wrap--small"><canvas id="bio-gender-chart"></canvas></div>
+        <div class="table-wrap">
+          <table id="bio-gender-table" class="data-table">
+            <thead><tr>
+              <th>Gender</th>
+              <th class="num">Patients</th>
+              <th class="num">Share</th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Laterality</h2>
+      <div class="grid-2-inner">
+        <div class="chart-wrap chart-wrap--small"><canvas id="bio-laterality-chart"></canvas></div>
+        <div class="table-wrap">
+          <table id="bio-laterality-table" class="data-table">
+            <thead><tr>
+              <th>Laterality</th>
+              <th class="num">Sessions</th>
+              <th class="num">Share</th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header-row">
+        <h2>Incision Meridian (INC) &mdash; <span id="bio-inc-n" class="muted small"></span> eyes</h2>
+        <label>Eye
+          <select id="bio-inc-eye">
+            <option value="right">Right eye</option>
+            <option value="left">Left eye</option>
+          </select>
+        </label>
+      </div>
+      <div class="inc-layout">
+        <div class="chart-wrap"><canvas id="bio-inc-chart"></canvas></div>
+        <div class="table-wrap">
+          <table id="bio-inc-cluster-table" class="data-table">
+            <thead><tr>
+              <th>Cluster</th>
+              <th class="num">Eyes</th>
+              <th class="num">Share</th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <details style="margin-top:1rem">
+        <summary class="muted small" style="cursor:pointer">Top 10 most frequent values</summary>
+        <div class="table-wrap" style="margin-top:0.5rem">
+          <table id="bio-inc-top-table" class="data-table">
+            <thead><tr>
+              <th class="num">Meridian</th>
+              <th class="num">Eyes</th>
+              <th class="num">Share</th>
+            </tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </details>
+    </div>
+
+    <div class="card">
+      <h2>Summary Statistics</h2>
+      <div class="table-wrap">
+        <table id="bio-table" class="data-table">
+          <thead><tr>
+            <th>Metric</th>
+            <th class="num">N</th>
+            <th class="num">Mean</th>
+            <th class="num">SD</th>
+            <th class="num">Min</th>
+            <th class="num">P25</th>
+            <th class="num">Median</th>
+            <th class="num">P75</th>
+            <th class="num">Max</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Distribution &mdash; <label>Metric <select id="bio-metric"></select></label></h2>
+      <div class="chart-wrap"><canvas id="bio-hist"></canvas></div>
+    </div>
+  </section>
+
+  <section id="tab-iols" class="tab-panel">
+    <div class="toolbar">
+      <label>Year
+        <select id="iols-year"></select>
+      </label>
+      <label>Type
+        <select id="iols-type">
+          <option value="all">All types</option>
+          <option value="standard">Standard</option>
+          <option value="toric">Toric</option>
+          <option value="keratoconus">Keratoconus</option>
+          <option value="post_lasik">Post-LASIK/PRK</option>
+        </select>
+      </label>
+      <div class="spacer"></div>
+      <button class="btn" id="iols-export-csv">Export CSV</button>
+      <button class="btn" id="iols-export-png">Manufacturers PNG</button>
+    </div>
+
+    <div class="card">
+      <h2>Manufacturers</h2>
+      <div class="chart-wrap"><canvas id="iols-mfr-chart"></canvas></div>
+    </div>
+
+    <div class="card">
+      <h2>IOL Rankings</h2>
+      <div class="toolbar-mini" style="margin-bottom:0.75rem">
+        <label>Manufacturer
+          <select id="iols-mfr"><option value="">All manufacturers</option></select>
+        </label>
+      </div>
+      <div class="table-wrap">
+        <table id="iols-table" class="data-table">
+          <thead><tr>
+            <th class="num">#</th>
+            <th data-sort="manufacturer">Manufacturer</th>
+            <th data-sort="name">IOL</th>
+            <th data-sort="count" class="num">Count</th>
+            <th data-sort="share" class="num">Share</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
 </main>
 
 <footer class="site-footer">
   <div class="wrap">
-    <p class="muted small">Static dashboard built from Google Analytics export. Source file: <code id="source-file">—</code>.</p>
     <p class="muted small">Developed by Miguel Raimundo.</p>
   </div>
 </footer>

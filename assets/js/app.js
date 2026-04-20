@@ -1,6 +1,8 @@
 import { initOverview } from './overview.js';
 import { initCountries } from './countries.js';
 import { initCalcs } from './calcs.js';
+import { initBiometry } from './biometry.js';
+import { initIols } from './iols.js';
 
 async function fetchJSON(path) {
   const r = await fetch(path);
@@ -26,27 +28,25 @@ function setupTabs() {
   });
 }
 
-function renderMetaLine(meta) {
-  document.getElementById('source-file').textContent = meta.source;
-}
-
 async function main() {
   setupTabs();
   try {
-    const [overall, countries, calcs, meta, world] = await Promise.all([
+    const [overall, countries, calcs, meta, world, biometry, iols] = await Promise.all([
       fetchJSON('data/overall.json'),
       fetchJSON('data/countries.json'),
       fetchJSON('data/calcs.json'),
       fetchJSON('data/meta.json'),
       fetchJSON('data/world-110m.json'),
+      fetchJSON('data/biometry.json'),
+      fetchJSON('data/iols.json'),
     ]);
-    renderMetaLine(meta);
     initOverview(overall, meta);
     initCountries(countries, meta, world);
     initCalcs(calcs, meta);
+    initBiometry(biometry, meta);
+    initIols(iols, meta);
   } catch (err) {
     console.error(err);
-    document.getElementById('source-file').textContent = `failed to load: ${err.message}`;
   }
 }
 
