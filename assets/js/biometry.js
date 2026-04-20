@@ -365,6 +365,14 @@ function wireExports() {
       { key: 'max', label: 'Max' },
     ]);
   });
+  document.getElementById('bio-export-gender-png').addEventListener('click', () =>
+    downloadChartPng(genderChart, `escrs-bio-gender-${state.year}-${state.type}-${timestamp()}.png`));
+  document.getElementById('bio-export-lat-png').addEventListener('click', () =>
+    downloadChartPng(latChart, `escrs-bio-laterality-${state.year}-${state.type}-${timestamp()}.png`));
+  document.getElementById('bio-export-inc-png').addEventListener('click', () =>
+    downloadChartPng(incChart, `escrs-bio-inc-${state.incEye}-${state.year}-${state.type}-${timestamp()}.png`));
+  document.getElementById('bio-export-hist-png').addEventListener('click', () =>
+    downloadChartPng(histChart, `escrs-bio-${state.metric}-${state.year}-${state.type}-${timestamp()}.png`));
 }
 
 export function initBiometry(bioData, meta) {

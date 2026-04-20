@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ESCRS IOL Calc Stats</title>
 <meta name="description" content="Interactive dashboard of ESCRS IOL Calculator usage statistics." />
-<link rel="stylesheet" href="assets/css/style.css?v=b7d7157" />
+<link rel="stylesheet" href="assets/css/style.css?v=41feaca" />
 <script type="importmap">
 {
   "imports": {
@@ -41,7 +41,6 @@
       </label>
       <div class="spacer"></div>
       <button class="btn" id="overview-export-csv">Export CSV</button>
-      <button class="btn" id="overview-export-users-png">Users chart PNG</button>
     </div>
 
     <div class="kpis">
@@ -52,6 +51,7 @@
     </div>
 
     <div class="card">
+      <button class="chart-dl-btn" id="overview-export-users-png" title="Download PNG" aria-label="Download chart as PNG"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
       <h2>Monthly users &amp; sessions</h2>
       <div class="chart-wrap"><canvas id="overview-users-chart"></canvas></div>
     </div>
@@ -94,13 +94,12 @@
       </label>
       <div class="spacer"></div>
       <button class="btn" id="countries-export-csv">Export CSV</button>
-      <button class="btn" id="countries-export-map-png">Map PNG</button>
-      <button class="btn" id="countries-export-map-svg">Map SVG</button>
-      <button class="btn" id="countries-export-continent-png">Continent PNG</button>
     </div>
 
     <div class="grid-2">
       <div class="card map-card">
+        <button class="chart-dl-btn" id="countries-export-map-png" title="Download PNG" aria-label="Download map as PNG"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
+        <button class="chart-dl-btn" id="countries-export-map-svg" title="Download SVG" aria-label="Download map as SVG">SVG</button>
         <h2>World choropleth <span class="muted small" id="map-metric-label"></span></h2>
         <div class="map-wrap" id="countries-map"></div>
         <div class="legend" id="countries-legend"></div>
@@ -108,6 +107,7 @@
       </div>
 
       <div class="card">
+        <button class="chart-dl-btn" id="countries-export-continent-png" title="Download PNG" aria-label="Download chart as PNG"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
         <h2>By continent</h2>
         <div class="chart-wrap"><canvas id="countries-continent-chart"></canvas></div>
       </div>
@@ -151,16 +151,16 @@
       </label>
       <div class="spacer"></div>
       <button class="btn" id="calcs-export-csv">Export CSV</button>
-      <button class="btn" id="calcs-export-stacked-png">Stacked chart PNG</button>
-      <button class="btn" id="calcs-export-totals-png">Totals chart PNG</button>
     </div>
 
     <div class="grid-2">
       <div class="card">
+        <button class="chart-dl-btn" id="calcs-export-stacked-png" title="Download PNG" aria-label="Download chart as PNG"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
         <h2>Calculations per month (stacked by formula)</h2>
         <div class="chart-wrap"><canvas id="calcs-stacked-chart"></canvas></div>
       </div>
       <div class="card">
+        <button class="chart-dl-btn" id="calcs-export-totals-png" title="Download PNG" aria-label="Download chart as PNG"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
         <h2>Totals by formula</h2>
         <div class="chart-wrap"><canvas id="calcs-totals-chart"></canvas></div>
       </div>
@@ -168,11 +168,9 @@
 
     <div class="grid-2">
       <div class="card">
+        <button class="chart-dl-btn" id="calcs-export-variant-png" title="Download PNG" aria-label="Download chart as PNG"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
         <h2>Variant distribution</h2>
         <div class="chart-wrap"><canvas id="calcs-variant-chart"></canvas></div>
-        <div class="toolbar-mini">
-          <button class="btn" id="calcs-export-variant-png">Variant chart PNG</button>
-        </div>
       </div>
       <div class="card">
         <h2>Variant breakdown</h2>
@@ -243,8 +241,11 @@
         </div>
       </div>
       <div class="card">
+        <button class="chart-dl-btn" id="bio-export-gender-png" title="Download PNG" aria-label="Download chart as PNG"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
         <h2>Gender Distribution</h2>
-        <div class="chart-wrap chart-wrap--small"><canvas id="bio-gender-chart"></canvas></div>
+        <div class="chart-wrap chart-wrap--small">
+          <canvas id="bio-gender-chart"></canvas>
+        </div>
         <div class="table-wrap">
           <table id="bio-gender-table" class="data-table">
             <thead><tr>
@@ -259,9 +260,12 @@
     </div>
 
     <div class="card">
+      <button class="chart-dl-btn" id="bio-export-lat-png" title="Download PNG" aria-label="Download chart as PNG"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
       <h2>Laterality</h2>
       <div class="grid-2-inner">
-        <div class="chart-wrap chart-wrap--small"><canvas id="bio-laterality-chart"></canvas></div>
+        <div class="chart-wrap chart-wrap--small">
+          <canvas id="bio-laterality-chart"></canvas>
+        </div>
         <div class="table-wrap">
           <table id="bio-laterality-table" class="data-table">
             <thead><tr>
@@ -276,6 +280,7 @@
     </div>
 
     <div class="card">
+      <button class="chart-dl-btn" id="bio-export-inc-png" title="Download PNG" aria-label="Download chart as PNG"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
       <div class="card-header-row">
         <h2>Incision Meridian (INC) &mdash; <span id="bio-inc-n" class="muted small"></span> eyes</h2>
         <label>Eye
@@ -334,6 +339,7 @@
     </div>
 
     <div class="card">
+      <button class="chart-dl-btn" id="bio-export-hist-png" title="Download PNG" aria-label="Download chart as PNG"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
       <h2>Distribution &mdash; <label>Metric <select id="bio-metric"></select></label></h2>
       <div class="chart-wrap"><canvas id="bio-hist"></canvas></div>
     </div>
@@ -355,16 +361,17 @@
       </label>
       <div class="spacer"></div>
       <button class="btn" id="iols-export-csv">Export CSV</button>
-      <button class="btn" id="iols-export-png">Manufacturers PNG</button>
     </div>
 
     <div class="card">
+      <button class="chart-dl-btn" id="iols-export-mfr-png" title="Download PNG" aria-label="Download chart as PNG"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
       <h2>Manufacturers</h2>
       <div class="chart-wrap"><canvas id="iols-mfr-chart"></canvas></div>
     </div>
 
     <div class="grid-2">
       <div class="card">
+        <button class="chart-dl-btn" id="iols-export-concept-png" title="Download PNG" aria-label="Download chart as PNG"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
         <h2>Optic Concept</h2>
         <div class="grid-2">
           <div class="chart-wrap chart-wrap--small"><canvas id="iols-concept-chart"></canvas></div>
@@ -377,6 +384,7 @@
         </div>
       </div>
       <div class="card">
+        <button class="chart-dl-btn" id="iols-export-pciol-png" title="Download PNG" aria-label="Download chart as PNG"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
         <h2>PC-IOL (Presbyopia-correcting)</h2>
         <div class="grid-2">
           <div class="chart-wrap chart-wrap--small"><canvas id="iols-pciol-chart"></canvas></div>
@@ -392,6 +400,7 @@
 
     <div class="grid-2">
       <div class="card">
+        <button class="chart-dl-btn" id="iols-export-design-png" title="Download PNG" aria-label="Download chart as PNG"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
         <h2>Optic Design</h2>
         <div class="grid-2">
           <div class="chart-wrap chart-wrap--small"><canvas id="iols-design-chart"></canvas></div>
@@ -404,6 +413,7 @@
         </div>
       </div>
       <div class="card">
+        <button class="chart-dl-btn" id="iols-export-hydro-png" title="Download PNG" aria-label="Download chart as PNG"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
         <h2>Hydrophilicity</h2>
         <div class="grid-2">
           <div class="chart-wrap chart-wrap--small"><canvas id="iols-hydro-chart"></canvas></div>
@@ -418,6 +428,7 @@
     </div>
 
     <div class="card">
+      <button class="chart-dl-btn" id="iols-export-toric-png" title="Download PNG" aria-label="Download chart as PNG"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
       <h2>Toric</h2>
       <div class="grid-2">
         <div class="chart-wrap chart-wrap--small"><canvas id="iols-toric-chart"></canvas></div>
@@ -431,6 +442,7 @@
     </div>
 
     <div class="card">
+      <button class="chart-dl-btn" id="iols-export-haptic-png" title="Download PNG" aria-label="Download chart as PNG"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></button>
       <h2>Haptic Design</h2>
       <div class="grid-2">
         <div class="chart-wrap chart-wrap--small"><canvas id="iols-haptic-chart"></canvas></div>
@@ -473,6 +485,6 @@
   </div>
 </footer>
 
-<script type="module" src="assets/js/app.js?v=b7d7157"></script>
+<script type="module" src="assets/js/app.js?v=41feaca"></script>
 </body>
 </html>

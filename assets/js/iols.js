@@ -212,8 +212,19 @@ function wireExports() {
     ]);
   });
 
-  document.getElementById('iols-export-png').addEventListener('click', () => {
-    downloadChartPng(mfrChart, `escrs-iols-manufacturers-${state.year}-${state.type}-${timestamp()}.png`);
+  document.getElementById('iols-export-mfr-png').addEventListener('click', () =>
+    downloadChartPng(mfrChart, `escrs-iols-manufacturers-${state.year}-${state.type}-${timestamp()}.png`));
+
+  [
+    ['iols-export-concept-png', 'iols-concept-chart', 'concept'],
+    ['iols-export-pciol-png',   'iols-pciol-chart',   'pciol'],
+    ['iols-export-design-png',  'iols-design-chart',  'design'],
+    ['iols-export-hydro-png',   'iols-hydro-chart',   'hydro'],
+    ['iols-export-toric-png',   'iols-toric-chart',   'toric'],
+    ['iols-export-haptic-png',  'iols-haptic-chart',  'haptic'],
+  ].forEach(([btnId, chartId, name]) => {
+    document.getElementById(btnId).addEventListener('click', () =>
+      downloadChartPng(distCharts[chartId], `escrs-iols-${name}-${state.year}-${state.type}-${timestamp()}.png`));
   });
 }
 
