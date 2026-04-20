@@ -69,4 +69,10 @@ python3 -m http.server 8000
 
 ## Deploying
 
-Push to `main` / `master`. The workflow at `.github/workflows/pages.yml` uploads the whole repo as a Pages artifact and publishes. Make sure Pages is enabled in repo settings with *Build and deployment → Source: GitHub Actions*.
+Before committing, stamp asset URLs with the current git hash to bust browser caches:
+
+```bash
+uv run python scripts/stamp_version.py
+```
+
+Then push to `main` / `master`. The workflow at `.github/workflows/pages.yml` uploads the whole repo as a Pages artifact and publishes. Make sure Pages is enabled in repo settings with *Build and deployment → Source: GitHub Actions*.
