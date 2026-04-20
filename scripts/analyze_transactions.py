@@ -79,6 +79,152 @@ UNDERSCORE_ID_MAP: dict[str, str] = {
 }
 # ---------------------------------------------------------------------------
 
+# ---------------------------------------------------------------------------
+# Manually confirmed property mappings for underscore device IDs.
+# Run --match-underscore to see proposed matches, then add confirmed entries:
+# Format: { "_147": {"optic_concept": "monofocal", "pc_iol": "no", ...} }
+# ---------------------------------------------------------------------------
+MANUAL_PROP_MAP: dict[str, dict[str, str]] = {}
+# ---------------------------------------------------------------------------
+
+# ---------------------------------------------------------------------------
+# HapticDesign normalization — maps raw XML values to canonical group names.
+# Anything not listed below maps to "Other".
+# ---------------------------------------------------------------------------
+_CL = "C-loop (incl. modified)"
+
+HAPTIC_NORM: dict[str, str] = {
+    # C-loop — all variants including STABLEFORCE (Alcon AcrySof/Clareon) map here
+    "C loop": _CL,          "C-loop": _CL,          "C-Loop": _CL,
+    "c loop": _CL,          "c-loop": _CL,           "C Loop": _CL,
+    "c-loop haptik": _CL,   "C loop 9° angled": _CL, "C-Schlaufe, gefenstert": _CL,
+    "STABLEFORCE": _CL,
+    # Modified / closed / fenestrated / double C-loop variants
+    "Modified C-Loop": _CL,   "modified-c-loop": _CL,
+    "Closed C-loop": _CL,     "closed loop": _CL,
+    "closed C-Loop": _CL,     "modified C": _CL,
+    "Modified C": _CL,        "C MODIFIED": _CL,
+    "Modi ed C-Loop": _CL,    "modified c-loop": _CL,
+    "Modified C loop": _CL,   "modified C Loop": _CL,
+    "modified C loop": _CL,   "Modified C. 5° angle": _CL,
+    "C-Loop. 3-piece": _CL,   "Modified C-loop": _CL,
+    "Fenestrated C-loop": _CL, "Fenestrated C loop": _CL,
+    "Double C-loop": _CL,
+    "2 C-loops": _CL,
+    "undulating and rounded C-loop haptics": _CL,
+    "Undulating and rounded C-loop haptics": _CL,
+    "Posterior vaulting C-loops": _CL,
+    "Double Haptic": _CL,
+    "Z-flex": _CL,  "Z-Haptik": _CL, "Z-Haptic": _CL,
+    "Z FORM": _CL,  "Z-Form": _CL,
+    # Offset / step-vaulted (J&J Tecnis, Ophtec)
+    "Haptics offset from optic": "Offset", "Offset shaped": "Offset",
+    # 4-haptic
+    "4-haptic. MICS": "4-haptic",     "4 closed loops": "4-haptic",
+    "4 closed haptics": "4-haptic",   "4-loop": "4-haptic",
+    "four haptic": "4-haptic",        "4 haptic": "4-haptic",
+    "4 loops Square": "4-haptic",     "4 haptics": "4-haptic",
+    "4-haptic MICS": "4-haptic",      "four-point-haptic": "4-haptic",
+    "3-haptic": "4-haptic",           "4 squared closed loops": "4-haptic",
+    "4-haptics": "4-haptic",          "4 loop": "4-haptic",
+    "quattro-haptics": "4-haptic",    "four-point fixation": "4-haptic",
+    # Plate
+    "plate haptik design": "Plate",   "plate": "Plate",
+    "Plate": "Plate",                 "PLATE": "Plate",
+    "plate haptic": "Plate",          "Plate Haptic": "Plate",
+    "plate haptics": "Plate",         "Modified Plate": "Plate",
+    "plate with cut-out": "Plate",    "palte with cut-out": "Plate",
+    "Plattenhaptik": "Plate",         "plate haptic design": "Plate",
+    # Accommodative
+    "Accomodative": "Accommodative", "Modified accomodativeHaptic": "Accommodative",
+}
+# ---------------------------------------------------------------------------
+
+
+def _norm_haptic(raw: str) -> str:
+    return HAPTIC_NORM.get(raw, "Other") if raw else ""
+
+
+def load_iol_props(xml_path: Path = IOL_XML) -> dict[str, dict[str, str]]:
+    """Return {lens_id: {optic_concept, pc_iol, optic_design, toric, haptic_design, hydro}}.
+
+    pc_iol is derived: 'yes' for multifocal/EDoF/bifocal lenses, 'no' otherwise.
+    haptic_design values are normalized via HAPTIC_NORM.
+    Entries from MANUAL_PROP_MAP override/extend the XML-based results.
+    """
+    props: dict[str, dict[str, str]] = {}
+    tree = ET.parse(xml_path)
+    for lens in tree.getroot().findall("Lens"):
+        lid  = lens.get("id", "")
+        spec = lens.find("Specifications")
+        if spec is None:
+            continue
+        concept    = spec.findtext("OpticConcept", "").strip()
+        raw_haptic = spec.findtext("HapticDesign",  "").strip()
+        props[lid] = {
+            "optic_concept": concept,
+            "pc_iol":        "yes" if concept in ("multifocal", "EDoF", "bifocal") else "no",
+            "optic_design":  spec.findtext("OpticDesign", "").strip(),
+            "toric":         spec.findtext("Toric",       "").strip(),
+            "haptic_design": _norm_haptic(raw_haptic),
+            "hydro":         spec.findtext("Hydro",       "").strip(),
+        }
+    props.update(MANUAL_PROP_MAP)
+    return props
+
+
+def match_underscore_ids(
+    lookup: dict[str, tuple[str, str]],
+    props:  dict[str, dict[str, str]],
+    xml_path: Path = IOL_XML,
+) -> None:
+    """Print proposed name-based property matches for underscore device IDs."""
+    # Build name → [(xml_id, props_entry)] index from XML
+    tree = ET.parse(xml_path)
+    name_index: dict[str, list[tuple[str, dict[str, str]]]] = {}
+    for lens in tree.getroot().findall("Lens"):
+        lid  = lens.get("id", "")
+        name = lens.findtext("Name", "").strip().lower()
+        if name and lid in props:
+            name_index.setdefault(name, []).append((lid, props[lid]))
+
+    underscore_ids = [(dev_id, entry) for dev_id, entry in lookup.items()
+                      if dev_id.startswith("_")]
+    if not underscore_ids:
+        print("No underscore device IDs found in lookup.")
+        return
+
+    W = 16
+    headers = ["DeviceID", "DeviceName", "XML_Name", "XML_ID",
+               "OpticConcept", "OpticDesign", "Toric", "HapticDesign", "Hydro"]
+    print("  ".join(h.ljust(W) for h in headers))
+    print("-" * (W * len(headers) + 2 * (len(headers) - 1)))
+
+    matched = unmatched = ambiguous = 0
+    for dev_id, (mfr, name) in sorted(underscore_ids):
+        matches = name_index.get(name.lower(), [])
+        if not matches:
+            print(f"{dev_id.ljust(W)}  {name.ljust(W)}  {'(no match)'.ljust(W)}")
+            unmatched += 1
+        elif len(matches) > 1:
+            for xml_id, p in matches:
+                row = [dev_id, name, name, xml_id,
+                       p["optic_concept"], p["optic_design"],
+                       p["toric"], p["haptic_design"], p["hydro"]]
+                print("  ".join(str(v).ljust(W) for v in row) + "  [AMBIGUOUS]")
+            ambiguous += 1
+        else:
+            xml_id, p = matches[0]
+            row = [dev_id, name, name, xml_id,
+                   p["optic_concept"], p["optic_design"],
+                   p["toric"], p["haptic_design"], p["hydro"]]
+            print("  ".join(str(v).ljust(W) for v in row))
+            matched += 1
+
+    print(f"\nTotal: {len(underscore_ids)}  matched: {matched}  "
+          f"ambiguous: {ambiguous}  unmatched: {unmatched}")
+    print("Add confirmed entries to MANUAL_PROP_MAP in analyze_transactions.py")
+
 
 def load_iol_lookup(
     xml_path: Path = IOL_XML,
@@ -421,10 +567,34 @@ def export_biometry_json(df: pd.DataFrame) -> None:
     print(f"Wrote {out_path}  ({out_path.stat().st_size // 1024} KB)")
 
 
-def export_iols_json(df: pd.DataFrame, lookup: dict[str, tuple[str, str]]) -> None:
-    out_path = ROOT / "data" / "iols.json"
+_PROP_FIELDS = ("optic_concept", "pc_iol", "optic_design", "toric", "haptic_design", "hydro")
+
+
+def export_iols_json(
+    df:     pd.DataFrame,
+    lookup: dict[str, tuple[str, str]],
+    props:  dict[str, dict[str, str]],
+) -> None:
+    out_path  = ROOT / "data" / "iols.json"
     mfr_rows:  list[dict] = []
     lens_rows: list[dict] = []
+    prop_rows: dict[str, list[dict]] = {f: [] for f in _PROP_FIELDS}
+
+    def _add_prop_dist(sub: pd.DataFrame, year_key: str, type_key: str) -> None:
+        dev_ids = sub["SelectedDevice"].astype(str).str.strip()
+        for field in _PROP_FIELDS:
+            values = dev_ids.map(lambda d, f=field: props.get(d, {}).get(f, ""))
+            counts = values.value_counts(dropna=False)
+            total  = int(counts.sum())
+            if total == 0:
+                continue
+            for val, cnt in counts.items():
+                prop_rows[field].append({
+                    "year": year_key, "type": type_key,
+                    "value": str(val) if val == val else "",
+                    "count": int(cnt),
+                    "share": round(int(cnt) / total, 4),
+                })
 
     for year_key, year_df in _year_subsets(df).items():
         for type_key, sub in _type_subsets(year_df).items():
@@ -464,10 +634,15 @@ def export_iols_json(df: pd.DataFrame, lookup: dict[str, tuple[str, str]]) -> No
                     "share": round(count / lens_total, 4),
                 })
 
+            _add_prop_dist(sub, year_key, type_key)
+
     mfr_rows.sort(key=lambda r: (-r["count"], r["manufacturer"]))
     lens_rows.sort(key=lambda r: (-r["count"], r["manufacturer"], r["name"]))
+    for rows in prop_rows.values():
+        rows.sort(key=lambda r: (-r["count"], r["value"]))
 
-    out_path.write_text(json.dumps({"manufacturers": mfr_rows, "lenses": lens_rows}, separators=(",", ":")))
+    result = {"manufacturers": mfr_rows, "lenses": lens_rows, **prop_rows}
+    out_path.write_text(json.dumps(result, separators=(",", ":")))
     print(f"Wrote {out_path}  ({out_path.stat().st_size // 1024} KB)")
 
 
@@ -586,10 +761,11 @@ def analyze_clinical_flags(df: pd.DataFrame) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="ESCRS IOL Calculator transaction analysis")
-    parser.add_argument("--create-sample", action="store_true", help="Build sample files for all years")
-    parser.add_argument("--full",          action="store_true", help="Run on full datasets")
-    parser.add_argument("--analyze",       action="store_true", help="Print analysis to terminal instead of exporting JSONs")
-    parser.add_argument("--n-per-day",     type=int, default=50, help="Rows/day in sample (default: 50)")
+    parser.add_argument("--create-sample",   action="store_true", help="Build sample files for all years")
+    parser.add_argument("--full",            action="store_true", help="Run on full datasets")
+    parser.add_argument("--analyze",         action="store_true", help="Print analysis to terminal instead of exporting JSONs")
+    parser.add_argument("--match-underscore", action="store_true", help="Print proposed property matches for underscore device IDs")
+    parser.add_argument("--n-per-day",       type=int, default=50, help="Rows/day in sample (default: 50)")
     args = parser.parse_args()
 
     if args.create_sample:
@@ -605,9 +781,15 @@ def main() -> None:
             create_sample(src, dst, n_per_day=args.n_per_day)
         return
 
-    df     = _load_df(args)
     lookup = load_iol_lookup()
-    print(f"IOL lookup: {len(lookup)} lenses from {IOL_XML.name}")
+    props  = load_iol_props()
+    print(f"IOL lookup: {len(lookup)} lenses | props: {len(props)} from {IOL_XML.name}")
+
+    if args.match_underscore:
+        match_underscore_ids(lookup, props)
+        return
+
+    df = _load_df(args)
 
     if args.analyze:
         analyze_volume(df)
@@ -617,7 +799,7 @@ def main() -> None:
         analyze_clinical_flags(df)
     else:
         export_biometry_json(df)
-        export_iols_json(df, lookup)
+        export_iols_json(df, lookup, props)
 
 
 if __name__ == "__main__":

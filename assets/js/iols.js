@@ -8,6 +8,23 @@ const CALC_COLORS = [
   '#666666', '#1f78b4', '#b2df8a', '#fb9a99',
 ];
 
+const CONCEPT_COLORS = {
+  monofocal: '#0b5cab', multifocal: '#d95f02', EDoF: '#1b9e77',
+  bifocal: '#7570b3', 'enhanced monofocal': '#e7298a', '': '#cccccc',
+};
+const PCIOL_COLORS  = { no: '#0b5cab', yes: '#d95f02', '': '#cccccc' };
+const DESIGN_COLORS = { asphere: '#0b5cab', sphere: '#d95f02', '': '#cccccc' };
+const HYDRO_COLORS  = { hydrophobic: '#0b5cab', hydrophilic: '#1b9e77', '': '#cccccc' };
+const TORIC_COLORS  = { no: '#0b5cab', yes: '#d95f02', '': '#cccccc' };
+const HAPTIC_COLORS = {
+  'C-loop (incl. modified)': '#0b5cab',
+  'Offset': '#1b9e77',
+  '4-haptic': '#d95f02',
+  'Plate': '#7570b3',
+  'Accommodative': '#e7298a',
+  'Other': '#fb9a99', '': '#cccccc',
+};
+
 const LENS_PAGE_SIZE = 50;
 
 const state = {
@@ -21,6 +38,7 @@ const state = {
 
 let data = null;
 let mfrChart = null;
+const distCharts = {};
 
 function filteredMfr() {
   return data.manufacturers.filter(r => r.year === state.year && r.type === state.type);
@@ -93,8 +111,56 @@ function renderTable(rows) {
   }
 }
 
+function filteredDist(field) {
+  return (data[field] || []).filter(r => r.year === state.year && r.type === state.type);
+}
+
+function renderDist(canvasId, tableId, rows, colorMap) {
+  const labels = rows.map(r => r.value || '(unknown)');
+  const counts = rows.map(r => r.count);
+  const colors = rows.map((r, i) => colorMap[r.value] ?? CALC_COLORS[i % CALC_COLORS.length]);
+
+  if (distCharts[canvasId]) distCharts[canvasId].destroy();
+  distCharts[canvasId] = new Chart(document.getElementById(canvasId), {
+    type: 'doughnut',
+    data: {
+      labels,
+      datasets: [{ data: counts, backgroundColor: colors, borderColor: '#ffffff', borderWidth: 2 }],
+    },
+    options: {
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { position: 'bottom', labels: { boxWidth: 12 } },
+        tooltip: {
+          callbacks: {
+            label: ctx => {
+              const r = rows[ctx.dataIndex];
+              return `${ctx.label}: ${fmtInt(r.count)} (${(r.share * 100).toFixed(1)}%)`;
+            },
+          },
+        },
+      },
+    },
+  });
+
+  const tbody = document.querySelector(`#${tableId} tbody`);
+  tbody.innerHTML = rows.map(r => `
+    <tr>
+      <td><span class="swatch" style="background:${colorMap[r.value] ?? '#aaa'}"></span>${r.value || '(unknown)'}</td>
+      <td class="num">${fmtInt(r.count)}</td>
+      <td class="num">${(r.share * 100).toFixed(1)}%</td>
+    </tr>
+  `).join('');
+}
+
 function render() {
   renderManufacturers(filteredMfr());
+  renderDist('iols-concept-chart', 'iols-concept-table', filteredDist('optic_concept'), CONCEPT_COLORS);
+  renderDist('iols-pciol-chart',   'iols-pciol-table',   filteredDist('pc_iol'),        PCIOL_COLORS);
+  renderDist('iols-design-chart',  'iols-design-table',  filteredDist('optic_design'),  DESIGN_COLORS);
+  renderDist('iols-hydro-chart',   'iols-hydro-table',   filteredDist('hydro'),         HYDRO_COLORS);
+  renderDist('iols-toric-chart',   'iols-toric-table',   filteredDist('toric'),         TORIC_COLORS);
+  renderDist('iols-haptic-chart',  'iols-haptic-table',  filteredDist('haptic_design'), HAPTIC_COLORS);
   renderTable(filteredLenses());
 }
 

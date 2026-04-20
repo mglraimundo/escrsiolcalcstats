@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>ESCRS IOL Calc Stats</title>
 <meta name="description" content="Interactive dashboard of ESCRS IOL Calculator usage statistics." />
-<link rel="stylesheet" href="assets/css/style.css?v=ecfb7ca" />
+<link rel="stylesheet" href="assets/css/style.css?v=095b839" />
 <script type="importmap">
 {
   "imports": {
@@ -363,6 +363,99 @@
       <div class="chart-wrap"><canvas id="iols-mfr-chart"></canvas></div>
     </div>
 
+    <div class="grid-2">
+      <div class="card">
+        <h2>Optic Concept</h2>
+        <div class="chart-wrap chart-wrap--small"><canvas id="iols-concept-chart"></canvas></div>
+      </div>
+      <div class="card">
+        <h2>PC-IOL (Presbyopia-correcting)</h2>
+        <div class="chart-wrap chart-wrap--small"><canvas id="iols-pciol-chart"></canvas></div>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <h2>Optic Concept distribution</h2>
+        <div class="table-wrap">
+          <table id="iols-concept-table" class="data-table">
+            <thead><tr><th>Category</th><th class="num">Count</th><th class="num">Share</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card">
+        <h2>PC-IOL distribution</h2>
+        <div class="table-wrap">
+          <table id="iols-pciol-table" class="data-table">
+            <thead><tr><th>Category</th><th class="num">Count</th><th class="num">Share</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <h2>Optic Design</h2>
+        <div class="chart-wrap chart-wrap--small"><canvas id="iols-design-chart"></canvas></div>
+      </div>
+      <div class="card">
+        <h2>Hydrophilicity</h2>
+        <div class="chart-wrap chart-wrap--small"><canvas id="iols-hydro-chart"></canvas></div>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <h2>Optic Design distribution</h2>
+        <div class="table-wrap">
+          <table id="iols-design-table" class="data-table">
+            <thead><tr><th>Category</th><th class="num">Count</th><th class="num">Share</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Hydrophilicity distribution</h2>
+        <div class="table-wrap">
+          <table id="iols-hydro-table" class="data-table">
+            <thead><tr><th>Category</th><th class="num">Count</th><th class="num">Share</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <h2>Toric</h2>
+        <div class="chart-wrap chart-wrap--small"><canvas id="iols-toric-chart"></canvas></div>
+      </div>
+      <div class="card">
+        <h2>Toric distribution</h2>
+        <div class="table-wrap">
+          <table id="iols-toric-table" class="data-table">
+            <thead><tr><th>Category</th><th class="num">Count</th><th class="num">Share</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Haptic Design</h2>
+      <div class="grid-2">
+        <div class="chart-wrap chart-wrap--small"><canvas id="iols-haptic-chart"></canvas></div>
+        <div class="table-wrap">
+          <table id="iols-haptic-table" class="data-table">
+            <thead><tr><th>Category</th><th class="num">Count</th><th class="num">Share</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
     <div class="card">
       <h2>IOL Rankings</h2>
       <div class="toolbar-mini" style="margin-bottom:0.75rem">
@@ -393,6 +486,6 @@
   </div>
 </footer>
 
-<script type="module" src="assets/js/app.js?v=ecfb7ca"></script>
+<script type="module" src="assets/js/app.js?v=095b839"></script>
 </body>
 </html>
