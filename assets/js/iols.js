@@ -18,7 +18,6 @@ const HYDRO_COLORS  = { hydrophobic: '#0b5cab', hydrophilic: '#1b9e77', '': '#cc
 const TORIC_COLORS  = { no: '#0b5cab', yes: '#d95f02', '': '#cccccc' };
 const HAPTIC_COLORS = {
   'C-loop (incl. modified)': '#0b5cab',
-  'Offset': '#1b9e77',
   '4-haptic': '#d95f02',
   'Plate': '#7570b3',
   'Accommodative': '#e7298a',

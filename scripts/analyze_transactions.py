@@ -117,8 +117,8 @@ HAPTIC_NORM: dict[str, str] = {
     "Double Haptic": _CL,
     "Z-flex": _CL,  "Z-Haptik": _CL, "Z-Haptic": _CL,
     "Z FORM": _CL,  "Z-Form": _CL,
-    # Offset / step-vaulted (J&J Tecnis, Ophtec)
-    "Haptics offset from optic": "Offset", "Offset shaped": "Offset",
+    # Offset / step-vaulted (J&J Tecnis, Ophtec) — classified as modified C-loop
+    "Haptics offset from optic": _CL, "Offset shaped": _CL,
     # 4-haptic
     "4-haptic. MICS": "4-haptic",     "4 closed loops": "4-haptic",
     "4 closed haptics": "4-haptic",   "4-loop": "4-haptic",
