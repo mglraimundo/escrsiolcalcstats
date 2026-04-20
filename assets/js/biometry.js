@@ -8,7 +8,8 @@ const METRIC_UNITS = {
   Target: 'D', SIA: 'D', INC: '°',
 };
 
-const METRIC_ORDER = ['AL', 'K1', 'K2', 'Kdif', 'ACD', 'LT', 'WTW', 'CCT', 'Target', 'SIA'];
+const METRIC_ORDER = ['AL', 'K1', 'K2', 'Kdif', 'ACD', 'LT', 'WTW', 'CCT'];
+const REFRACTION_ORDER = ['Target', 'SIA'];
 
 const state = { year: 'all', type: 'all', metric: 'AL', incEye: 'right' };
 
@@ -34,6 +35,26 @@ function filteredHist() {
 
 function filteredSummaryRow() {
   return data.summary.find(r => r.year === state.year && r.type === state.type && r.metric === state.metric);
+}
+
+function renderRefractionTable() {
+  const rows = (data.refraction_summary || []).filter(r => r.year === state.year && r.type === state.type);
+  const ordered = REFRACTION_ORDER.map(m => rows.find(r => r.metric === m)).filter(Boolean);
+  const tbody = document.querySelector('#bio-refraction-table tbody');
+  if (!tbody) return;
+  tbody.innerHTML = ordered.map(r => `
+    <tr>
+      <td>${r.metric}${METRIC_UNITS[r.metric] ? ' <span class="muted small">(' + METRIC_UNITS[r.metric] + ')</span>' : ''}</td>
+      <td class="num">${fmtInt(r.n)}</td>
+      <td class="num">${fmtFloat(r.mean, 2)}</td>
+      <td class="num">${fmtFloat(r.sd, 2)}</td>
+      <td class="num">${fmtFloat(r.min, 2)}</td>
+      <td class="num">${fmtFloat(r.p25, 2)}</td>
+      <td class="num">${fmtFloat(r.p50, 2)}</td>
+      <td class="num">${fmtFloat(r.p75, 2)}</td>
+      <td class="num">${fmtFloat(r.max, 2)}</td>
+    </tr>
+  `).join('');
 }
 
 function renderTable(rows) {
@@ -332,17 +353,16 @@ function renderDedupNote() {
     }
   }
 
-  const demoEl = document.getElementById('bio-demo-dedup-note');
-  if (demoEl) {
-    if (row && row.n_total_sessions != null) {
-      const nDup = row.n_total_sessions - row.n_unique_sessions;
-      const pct = row.n_total_sessions ? (nDup / row.n_total_sessions * 100).toFixed(1) : '0.0';
-      demoEl.textContent = `Statistics are for ${fmtInt(row.n_unique_sessions)} unique sessions` +
-        ` (${fmtInt(nDup)}, ${pct}% duplicate sessions — ${DEDUP_FIELDS} — excluded).`;
-    } else {
-      demoEl.textContent = '';
-    }
-  }
+  const demoText = (row && row.n_total_sessions != null) ? (() => {
+    const nDup = row.n_total_sessions - row.n_unique_sessions;
+    const pct = row.n_total_sessions ? (nDup / row.n_total_sessions * 100).toFixed(1) : '0.0';
+    return `Statistics are for ${fmtInt(row.n_unique_sessions)} unique sessions` +
+      ` (${fmtInt(nDup)}, ${pct}% duplicate sessions — ${DEDUP_FIELDS} — excluded).`;
+  })() : '';
+  ['bio-demo-dedup-note', 'bio-demo-dedup-note-gender'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = demoText;
+  });
 }
 
 function render() {
@@ -350,6 +370,7 @@ function render() {
   renderDemographics();
   renderLaterality();
   renderIncision();
+  renderRefractionTable();
   renderTable(rows);
   renderHistogram();
   renderDedupNote();

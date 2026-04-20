@@ -302,6 +302,7 @@ def _apply_limits(col: pd.Series, metric: str) -> pd.Series:
 
 
 DEDUP_COLS = ["AL", "K1", "K2", "ACD", "CCT", "WTW", "LT"]
+REFRACTION_METRICS = {"Target", "SIA"}  # not subject to dedup filtering
 
 
 def _mark_duplicates(df: pd.DataFrame) -> pd.DataFrame:
@@ -573,6 +574,7 @@ def export_biometry_json(df: pd.DataFrame) -> None:
     out_path = ROOT / "data" / "biometry.json"
     summary_rows: list[dict] = []
     hist_rows: list[dict] = []
+    refraction_rows: list[dict] = []
     laterality_rows: list[dict] = []
     demographics_rows: list[dict] = []
     incision_rows: list[dict] = []
@@ -610,14 +612,15 @@ def export_biometry_json(df: pd.DataFrame) -> None:
                 incision_rows.append({"year": year_key, "type": type_key, "eye": eye_key, **inc})
 
             for metric, edges in METRIC_BINS.items():
-                if metric not in unique_sub.columns:
+                is_refraction = metric in REFRACTION_METRICS
+                source = sub if is_refraction else unique_sub
+                if metric not in source.columns:
                     continue
-                valid = pd.to_numeric(unique_sub[metric], errors="coerce").dropna()
+                valid = pd.to_numeric(source[metric], errors="coerce").dropna()
                 if len(valid) < 2:
                     continue
 
-                counts, _ = np.histogram(valid.values, bins=np.array(edges))
-                summary_rows.append({
+                row_dict = {
                     "year": year_key, "type": type_key, "metric": metric,
                     "n":   int(len(valid)),
                     "mean": round(float(valid.mean()),          3),
@@ -627,13 +630,19 @@ def export_biometry_json(df: pd.DataFrame) -> None:
                     "p75":  round(float(valid.quantile(0.75)),  3),
                     "min":  round(float(valid.min()),           3),
                     "max":  round(float(valid.max()),           3),
-                })
-                hist_rows.append({
-                    "year": year_key, "type": type_key, "metric": metric,
-                    "counts": counts.tolist(),
-                })
+                }
+                if is_refraction:
+                    refraction_rows.append(row_dict)
+                else:
+                    counts, _ = np.histogram(valid.values, bins=np.array(edges))
+                    summary_rows.append(row_dict)
+                    hist_rows.append({
+                        "year": year_key, "type": type_key, "metric": metric,
+                        "counts": counts.tolist(),
+                    })
 
     result = {"metric_bins": METRIC_BINS, "summary": summary_rows, "histograms": hist_rows,
+              "refraction_summary": refraction_rows,
               "laterality": laterality_rows, "demographics": demographics_rows,
               "incision": incision_rows, "dedup_stats": dedup_rows}
     out_path.write_text(json.dumps(result, separators=(",", ":")))
