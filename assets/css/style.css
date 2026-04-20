@@ -59,7 +59,11 @@ html, body {
   position: sticky;
   top: 0;
   z-index: 10;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
 }
+.tabs::-webkit-scrollbar { display: none; }
 .tab {
   background: transparent;
   border: none;
@@ -70,6 +74,8 @@ html, body {
   border-radius: 8px 8px 0 0;
   border-bottom: 2px solid transparent;
   transition: background 0.15s, color 0.15s;
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 .tab:hover { background: var(--surface-2); color: var(--text); }
 .tab.active {
