@@ -315,6 +315,36 @@ function renderLaterality() {
   `).join('');
 }
 
+const DEDUP_FIELDS = 'same AL · K1 · K2 · ACD · CCT · WTW · LT within 1 h of a prior entry';
+
+function renderDedupNote() {
+  const row = (data.dedup_stats || []).find(r => r.year === state.year && r.type === state.type);
+
+  const bioEl = document.getElementById('bio-dedup-note');
+  if (bioEl) {
+    if (row) {
+      const nDup = row.n_total - row.n_unique;
+      const pct = row.n_total ? (nDup / row.n_total * 100).toFixed(1) : '0.0';
+      bioEl.textContent = `Statistics are for ${fmtInt(row.n_unique)} unique measurement sets` +
+        ` (${fmtInt(nDup)}, ${pct}% duplicates — ${DEDUP_FIELDS} — excluded).`;
+    } else {
+      bioEl.textContent = '';
+    }
+  }
+
+  const demoEl = document.getElementById('bio-demo-dedup-note');
+  if (demoEl) {
+    if (row && row.n_total_sessions != null) {
+      const nDup = row.n_total_sessions - row.n_unique_sessions;
+      const pct = row.n_total_sessions ? (nDup / row.n_total_sessions * 100).toFixed(1) : '0.0';
+      demoEl.textContent = `Statistics are for ${fmtInt(row.n_unique_sessions)} unique sessions` +
+        ` (${fmtInt(nDup)}, ${pct}% duplicate sessions — ${DEDUP_FIELDS} — excluded).`;
+    } else {
+      demoEl.textContent = '';
+    }
+  }
+}
+
 function render() {
   const rows = filteredSummary();
   renderDemographics();
@@ -322,6 +352,7 @@ function render() {
   renderIncision();
   renderTable(rows);
   renderHistogram();
+  renderDedupNote();
 }
 
 function populateFilters() {

@@ -41,6 +41,8 @@ YEARS = {
 # ---------------------------------------------------------------------------
 BIOMETRIC_LIMITS: dict[str, tuple[float | None, float | None]] = {
     "AL":     (10.0,  45.0),
+    "K1":     (20.0, 110.0),
+    "K2":     (20.0, 110.0),
     "ACD":    (None,   7.0),
     "CCT":    (250.0, 1000.0),
     "WTW":    (5.0,   18.0),
@@ -299,6 +301,54 @@ def _apply_limits(col: pd.Series, metric: str) -> pd.Series:
     return col
 
 
+DEDUP_COLS = ["AL", "K1", "K2", "ACD", "CCT", "WTW", "LT"]
+
+
+def _mark_duplicates(df: pd.DataFrame) -> pd.DataFrame:
+    """Add '_is_dup' column: True if row shares AL/K1/K2/ACD/CCT/WTW/LT with an earlier row within 1 h.
+
+    NaN values in optional fields (CCT, WTW, LT) are treated as equal — two rows with NaN for the
+    same field are still considered duplicates if all other key fields match.
+    """
+    SENTINEL = -9999.0
+    kk_cols = [f"_kk_{c}" for c in DEDUP_COLS]
+
+    df = df.copy()
+    df["_ts"] = pd.to_datetime(df["DateCreated"], errors="coerce")
+
+    key_df = df[DEDUP_COLS].round(4).fillna(SENTINEL)
+    for c, kc in zip(DEDUP_COLS, kk_cols):
+        df[kc] = key_df[c]
+
+    # Include RightEye so left and right eyes are never compared against each other.
+    all_key_cols = ["RightEye"] + kk_cols
+    df_sorted = df.sort_values(all_key_cols + ["_ts"]).reset_index(drop=False)
+
+    key_arr = df_sorted[all_key_cols].values
+    same_grp = np.concatenate(
+        [[False], np.all(key_arr[1:] == key_arr[:-1], axis=1)]
+    )
+    ts_arr = df_sorted["_ts"].values
+
+    is_dup = np.zeros(len(ts_arr), dtype=bool)
+    last_kept = ts_arr[0]
+    for i in range(1, len(ts_arr)):
+        if same_grp[i]:
+            dt_h = float((ts_arr[i] - last_kept) / np.timedelta64(1, "h"))
+            if dt_h <= 1.0:
+                is_dup[i] = True
+            else:
+                last_kept = ts_arr[i]
+        else:
+            last_kept = ts_arr[i]
+
+    df_sorted["_is_dup"] = is_dup
+    df_sorted = df_sorted.set_index("index")
+    df["_is_dup"] = df_sorted["_is_dup"]
+    return df.drop(columns=kk_cols + ["_ts"])
+
+
+
 def _year_subsets(df: pd.DataFrame) -> dict[str, pd.DataFrame]:
     subsets: dict[str, pd.DataFrame] = {"all": df}
     for y in sorted(df["Year"].unique()):
@@ -479,6 +529,11 @@ def _load_df(args: argparse.Namespace) -> pd.DataFrame:
 
     unpacked["Kdif"] = (unpacked["K2"] - unpacked["K1"]).abs()
 
+    print("Marking duplicate measurements (same AL/K1/K2/ACD/CCT/WTW/LT within 1 h) ...")
+    unpacked = _mark_duplicates(unpacked)
+    n_dup = int(unpacked["_is_dup"].sum())
+    print(f"  Duplicates flagged: {n_dup:,} ({100 * n_dup / len(unpacked):.2f}%)")
+
     return unpacked
 
 
@@ -521,12 +576,29 @@ def export_biometry_json(df: pd.DataFrame) -> None:
     laterality_rows: list[dict] = []
     demographics_rows: list[dict] = []
     incision_rows: list[dict] = []
+    dedup_rows: list[dict] = []
 
     for year_key, year_df in _year_subsets(df).items():
         for type_key, sub in _type_subsets(year_df).items():
             lat = _laterality(sub)
             laterality_rows.append({"year": year_key, "type": type_key, **lat})
-            dem = _demographics(sub)
+            unique_sub = sub[~sub["_is_dup"]] if "_is_dup" in sub.columns else sub
+
+            # Session is a dup only when ALL its eye rows are dup (for demographics).
+            if "_is_dup" in sub.columns:
+                all_dup = sub.groupby("_session_id")["_is_dup"].all()
+                dup_sids = set(all_dup[all_dup].index)
+                demo_sub = sub[~sub["_session_id"].isin(dup_sids)]
+            else:
+                demo_sub = sub
+
+            dedup_rows.append({
+                "year": year_key, "type": type_key,
+                "n_total": int(len(sub)), "n_unique": int(len(unique_sub)),
+                "n_total_sessions": int(sub["_session_id"].nunique()),
+                "n_unique_sessions": int(demo_sub["_session_id"].nunique()),
+            })
+            dem = _demographics(demo_sub)
             demographics_rows.append({"year": year_key, "type": type_key, **dem})
             eye_subsets = {
                 "all":   sub,
@@ -536,10 +608,11 @@ def export_biometry_json(df: pd.DataFrame) -> None:
             for eye_key, eye_sub in eye_subsets.items():
                 inc = _incision_data(eye_sub)
                 incision_rows.append({"year": year_key, "type": type_key, "eye": eye_key, **inc})
+
             for metric, edges in METRIC_BINS.items():
-                if metric not in sub.columns:
+                if metric not in unique_sub.columns:
                     continue
-                valid = pd.to_numeric(sub[metric], errors="coerce").dropna()
+                valid = pd.to_numeric(unique_sub[metric], errors="coerce").dropna()
                 if len(valid) < 2:
                     continue
 
@@ -562,7 +635,7 @@ def export_biometry_json(df: pd.DataFrame) -> None:
 
     result = {"metric_bins": METRIC_BINS, "summary": summary_rows, "histograms": hist_rows,
               "laterality": laterality_rows, "demographics": demographics_rows,
-              "incision": incision_rows}
+              "incision": incision_rows, "dedup_stats": dedup_rows}
     out_path.write_text(json.dumps(result, separators=(",", ":")))
     print(f"Wrote {out_path}  ({out_path.stat().st_size // 1024} KB)")
 
